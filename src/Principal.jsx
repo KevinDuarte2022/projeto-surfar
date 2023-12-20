@@ -1,4 +1,5 @@
-function Titulo() {
+import Set from "./Set"
+function Principal() {
     
     let ong = "Projeto Surfar"
     const urlImg = "https://cdn.pixabay.com/photo/2023/11/03/15/19/ai-generated-8363278_1280.jpg"
@@ -6,9 +7,11 @@ function Titulo() {
         <div>
             <h1>ONG {ong}</h1>
             <img src={urlImg} />
+            <Set/>
         </div>
+
 
     )
 }
 
-export default Titulo
+export default Principal

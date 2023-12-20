@@ -1,8 +1,7 @@
-import Titulo from "./Titulo"
-import Set from "./Set"
+import Principal from "./Principal"
 function App(){
-  return <Titulo/>
-  return <Set/>
+  return <Principal/>
+
 }
 export default App
 

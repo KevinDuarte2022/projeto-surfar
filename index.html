@@ -1,54 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pj</title>
-</head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="./README.md"
-
->
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a link href="#"><img src="data:image/png;base64,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" alt="LOGO INICIAL"></a>
-        <a class="navbar-brand" href="#">SURFAR</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME <span class="sr-only">(Página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">DESTAQUES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PREÇOS</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                PROJETOS
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Projeto1</a>
-                <a class="dropdown-item" href="#">Projeto2</a>
-                <a class="dropdown-item" href="#">Projeto3</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONG Projeto Surfar</title>
+  </head>
+  
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
-

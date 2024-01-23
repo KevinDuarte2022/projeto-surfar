@@ -3,6 +3,7 @@ import NavBarComponent from "./NavBar"
 import Equipe from "./img/projeto-surfar-img1.jpeg"
 import { useState } from "react"
 import QuemSomos from "./QuemSomos";
+import './index.css';
 
 function Home() {
     const [quemSomos, setQuemSomos] = useState (false);
@@ -12,7 +13,7 @@ function Home() {
             <NavBarComponent/>
             {quemSomos && <QuemSomos/>}
             <h1>ONG {ong}</h1>
-            <img src={Equipe} alt="Time Projeto Surfar" title="Time Projeto Surfar"/>            
+            <img className="imagem01" src={Equipe} alt="Time Projeto Surfar" title="Time Projeto Surfar"/>            
             <Set/>
         </div>
 

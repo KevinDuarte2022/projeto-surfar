@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(1, 1, 97);
+    background-color: whitesmoke;
 }
 .titulo{
     text-align: center;
@@ -7,16 +7,18 @@ body{
 }
 
 .imagem01{
-    padding-top: 10px ;
+    
+    padding-top: 10px;
     display: block;
     margin: auto;
-    width: 1250px;
+    width: 1200px;
+   
 }
 .menu{
     height: 5vh;
     align-items: center;
     justify-content: space-around;
-    background-color: yellow;
+    background-color: rgb(14, 18, 96);
     font-size: 17px;
     text-align: center;
     display: flex;
@@ -28,7 +30,7 @@ body{
     position: relative;
     text-decoration: none;
     padding: 0 10px;
-    color: black;
+    color: whitesmoke;
     letter-spacing: 0.5px;
     
 }
@@ -41,9 +43,11 @@ body{
     width: 0;
     left: 0;
     bottom: -2px;
+    color: whitesmoke;
 }
 
 .menu a:hover:after{
     width: 100%;
     transition: 0.4s ease;
+    color: whitesmoke;
 }

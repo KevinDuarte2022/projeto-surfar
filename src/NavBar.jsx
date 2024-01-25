@@ -1,23 +1,24 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 
 function NavBarComponent() {
   return (
     <Navbar expand="lg" className="menu">
       <Container className="mx-auto">
-        <Navbar.Brand href="#home">HOME</Navbar.Brand>
+        <Link to="/">HOME</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="#home">QUEM SOMOS</Nav.Link>
-            <Nav.Link href="#link">DOE AQUI</Nav.Link>
-            <Nav.Link href="#link">SEJA UM VOLUNTÁRIO</Nav.Link>
-            <Nav.Link href="#link">CURSOS OFERTADOS</Nav.Link>
-            <Nav.Link href="#link">PROJETOS</Nav.Link>
-            <Nav.Link href="#link">CONSULTORIA PARA ONGS</Nav.Link>
-            <Nav.Link href="#link">FALE CONOSCO</Nav.Link>
+          <Link to="/quem-somos">QUEM SOMOS</Link>
+          <Link to="/doe-aqui">DOE AQUI</Link>
+          <Link to="/">SEJA UM VOLUNTÁRIO</Link>
+          <Link to="/">CURSOS OFERTADOS</Link>
+          <Link to="/">PROJETOS</Link>
+          <Link to="/">CONSULTORIA PARA ONGS</Link>
+          <Link to="/">FALE CONOSCO</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

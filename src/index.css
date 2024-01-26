@@ -51,7 +51,26 @@ body{
     transition: 0.4s ease;
     color: whitesmoke;
 }
-.d-block w-100{
+.redimensionar-imagem{
     display: block;
-    width: 30px;
+    width: 1200px;
+    margin: auto;
+    
+}
+
+.imgQuemSomos{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.tituloQuemSomos{
+    position: absolute;
+    left: 100px;
+    bottom: 600px;
+    margin: 0;
+}
+.carrossel{
+    width: 80%;
+    display: block;
+    margin: auto;
 }

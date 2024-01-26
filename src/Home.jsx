@@ -17,7 +17,7 @@ function Home() {
             <NavBarComponent />
             <UncontrolledExample/>
             
-            <img className="imagem01" src={Equipe} alt="Time Projeto Surfar" title="Time Projeto Surfar" />
+            {/* <img className="imagem01" src={Equipe} alt="Time Projeto Surfar" title="Time Projeto Surfar" /> */}
             <Set />
         </div>
 

@@ -4,7 +4,7 @@ function DoeAqui(){
     return(
         <div>
             <NavBarComponent/>
-            TESTE DOE AQUI
+            <h1>TESTE DOE AQUI</h1>
         </div>
     )
 }

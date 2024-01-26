@@ -4,7 +4,7 @@ function SejaVoluntario(){
     return(
         <div>
             <NavBarComponent/>
-            Teste Seja Voluntario
+            <h1>Teste Seja Voluntario</h1>
         </div>
     )
 }

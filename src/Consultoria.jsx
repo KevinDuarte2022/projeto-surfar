@@ -1,12 +1,12 @@
 import NavBarComponent from "./NavBar"
 
-function DoeAqui(){
+function Consultoria(){
     return(
         <div>
             <NavBarComponent/>
-            Teste de CONSULTORIA
+            <h1>Teste de CONSULTORIA</h1>
         </div>
     )
 }
 
-export default DoeAqui;
+export default Consultoria;

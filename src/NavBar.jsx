@@ -14,11 +14,11 @@ function NavBarComponent() {
           <Nav className="me-auto">
           <Link to="/quem-somos">QUEM SOMOS</Link>
           <Link to="/doe-aqui">DOE AQUI</Link>
-          <Link to="/">SEJA UM VOLUNTÁRIO</Link>
-          <Link to="/">CURSOS OFERTADOS</Link>
-          <Link to="/">PROJETOS</Link>
-          <Link to="/">CONSULTORIA PARA ONGS</Link>
-          <Link to="/">FALE CONOSCO</Link>
+          <Link to="/seja-voluntario">SEJA UM VOLUNTÁRIO</Link>
+          <Link to="/cursos-ofertados">CURSOS OFERTADOS</Link>
+          <Link to="/projetos">PROJETOS</Link>
+          <Link to="/consultoria">CONSULTORIA PARA ONGS</Link>
+          <Link to="/fale-conosco">FALE CONOSCO</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

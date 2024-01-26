@@ -51,3 +51,7 @@ body{
     transition: 0.4s ease;
     color: whitesmoke;
 }
+.d-block w-100{
+    display: block;
+    width: 30px;
+}

@@ -1,74 +1,78 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Imagem01 from './img/projeto-surfar-img1.jpeg';
-import Imagem02 from './img/projeto-surfar-img2.jpeg';
-import Imagem03 from './img/projeto-surfar-img4.jpeg'
+import Imagem01 from './img/Design sem nome (7).png';
+import Imagem02 from './img/Design sem nome (2).png';
+import Imagem03 from './img/Design sem nome (4).png'
+import Imagem04 from './img/Design sem nome (5).png'
+import Imagem05 from'./img/Design sem nome (8).png'
+import Imagem06 from'./img/Design sem nome (6).png'
+import Imagem07 from'./img/Design sem nome (3).png'
 
 
-function UncontrolledExample() {
+function Carrossel() {
   return (
-    <Carousel className='carrossel'>
+    <Carousel className='carrossel w-100'>
       <Carousel.Item>
         
-        <img src={Imagem01} className="redimensionar-imagem"  alt='Criança' title='Criança'/>
+        <img src={Imagem01} className="redimensionar-imagem carrossel w-100"  alt='Criança' title='Criança'/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Projeto Surfar</h3>
+          <p>Aula de Surf</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem" src={Imagem02} />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem02} />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Projeto Surfar</h3>
+          <p>Hora do lanche</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem" src={Imagem03} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem03} alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <h3>Projeto Surfar</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           Cuidadores de idosos
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item> */}
-        {/* <img className="d-block w-100" src={Imagem04} alt="" />
+       <Carousel.Item> 
+         <img className="redimensionar-imagem carrossel w-100" src={Imagem04} alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <h3>Projeto Surfar</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={Imagem05} alt="" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Dia de festa
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={Imagem06} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem05} alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <h3>Projeto Surfar</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           Aula de capoeira
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={Imagem07} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem06} alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <h3>Projeto Surfar</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Reunião com crianças
           </p>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem07} alt="" />
+        <Carousel.Caption>
+        <h3>Projeto Surfar</h3>
+          <p>
+            Time
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item> 
     </Carousel>
   );
 }
 
-export default UncontrolledExample;
+export default Carrossel;

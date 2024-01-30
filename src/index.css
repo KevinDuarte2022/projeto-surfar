@@ -53,7 +53,7 @@ body{
 }
 .redimensionar-imagem{
     display: block;
-    width: 1200px;
+    width: 1500px;
     margin: auto;
     
 }
@@ -62,6 +62,12 @@ body{
     display: block;
     width: 100%;
     position: relative;
+    transition: 0.5s ease;
+}
+.imgQuemSomos:hover{
+    width: 103%;
+    transition: 0.5s ease;
+    
 }
 .tituloQuemSomos{
     position: absolute;
@@ -69,8 +75,9 @@ body{
     bottom: 600px;
     margin: 0;
 }
-.carrossel{
-    width: 80%;
+.carrossel w-100{
+    padding: 50px;
+    width: 100%;
     display: block;
     margin: auto;
 }

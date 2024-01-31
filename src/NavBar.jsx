@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
 
+
 function NavBarComponent() {
   return (
     <Navbar expand="lg" className="menu">

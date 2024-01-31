@@ -13,21 +13,21 @@ function Carrossel() {
     <Carousel className='carrossel w-100'>
       <Carousel.Item>
         
-        <img src={Imagem01} className="redimensionar-imagem carrossel w-100"  alt='Criança' title='Criança'/>
+        <img src={Imagem01} className="redimensionar-imagem carrossel w-100"  alt='Projeto Surfar' title='Projeto Surfar'/>
         <Carousel.Caption>
           <h3>Projeto Surfar</h3>
           <p>Aula de Surf</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem carrossel w-100" src={Imagem02} />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem02} alt='Projeto Surfar' title='Projeto Surfar' />
         <Carousel.Caption>
         <h3>Projeto Surfar</h3>
           <p>Hora do lanche</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem carrossel w-100" src={Imagem03} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem03} alt='Projeto Surfar' title='Projeto Surfar'/>
         <Carousel.Caption>
         <h3>Projeto Surfar</h3>
           <p>
@@ -36,7 +36,7 @@ function Carrossel() {
         </Carousel.Caption>
       </Carousel.Item>
        <Carousel.Item> 
-         <img className="redimensionar-imagem carrossel w-100" src={Imagem04} alt="" />
+         <img className="redimensionar-imagem carrossel w-100" src={Imagem04} alt='Projeto Surfar' title='Projeto Surfar'/>
         <Carousel.Caption>
         <h3>Projeto Surfar</h3>
           <p>
@@ -45,7 +45,7 @@ function Carrossel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem carrossel w-100" src={Imagem05} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem05} alt='Projeto Surfar' title='Projeto Surfar'/>
         <Carousel.Caption>
         <h3>Projeto Surfar</h3>
           <p>
@@ -54,7 +54,7 @@ function Carrossel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem carrossel w-100" src={Imagem06} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem06} alt='Projeto Surfar' title='Projeto Surfar'/>
         <Carousel.Caption>
         <h3>Projeto Surfar</h3>
           <p>
@@ -63,7 +63,7 @@ function Carrossel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="redimensionar-imagem carrossel w-100" src={Imagem07} alt="" />
+        <img className="redimensionar-imagem carrossel w-100" src={Imagem07} alt='Projeto Surfar' title='Projeto Surfar'/>
         <Carousel.Caption>
         <h3>Projeto Surfar</h3>
           <p>

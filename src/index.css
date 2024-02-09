@@ -1,20 +1,22 @@
-body{
+body {
     background-color: whitesmoke;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     color: aliceblue;
 }
 
-.imagem01{
-    
+.imagem01 {
+
     padding-top: 10px;
     display: block;
     margin: auto;
     width: 1200px;
-   
+
 }
-.menu{
+
+.menu {
     height: 8vh;
     align-items: center;
     justify-content: space-around;
@@ -23,20 +25,21 @@ body{
     text-align: center;
     display: flex;
     margin: auto;
-    
+
 }
-.menu a{
+
+.menu a {
     font-size: 18px;
     position: relative;
     text-decoration: none;
     padding: 0 10px;
     color: whitesmoke;
     letter-spacing: 0.5px;
-    
-    
+
+
 }
 
-.menu a:after{
+.menu a:after {
     content: "";
     position: absolute;
     background-color: rgb(232, 60, 117);
@@ -48,47 +51,75 @@ body{
     transition: 0.4s ease;
 }
 
-.menu a:hover:after{
+.menu a:hover:after {
     width: 100%;
     transition: 0.4s ease;
     color: whitesmoke;
 }
-.redimensionar-imagem{
+
+.redimensionar-imagem {
     display: block;
     width: 1500px;
     margin: auto;
-    
+
 }
 
-.imgQuemSomos{
+.imgQuemSomos {
     display: block;
     width: 100%;
     position: relative;
     transition: 0.5s ease;
 }
-.imgQuemSomos:hover{
+
+.imgQuemSomos:hover {
     width: 103%;
     transition: 0.5s ease;
-    
+
 }
-.tituloQuemSomos{
+
+.tituloQuemSomos {
     position: absolute;
     left: 100px;
     bottom: 600px;
     margin: 0;
 }
-.carrossel w-100{
+
+.carrossel w-100 {
     padding: 50px;
     width: 100%;
     display: block;
     margin: auto;
 }
-.doarHome{
+
+.doarHome {
     font-size: 45px;
     background-color: rgb(182, 184, 231);
-    padding-top: 100px ;
+    padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.paragrafoQuemSomos {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    margin: 0 auto;
+    width: 63%;
+}
+
+.imgQuemSomosP {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tituloParagrafo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+
 }

@@ -1,4 +1,5 @@
 import NavBarComponent from "./NavBar";
+import Footer from "./Footer"
 import ImagemQuemSomos from './img/Quem somos nós.png';
 import ImagemP1 from './img/Design sem nome (9).png';
 import ImagemP2 from './img/Design sem nome (6).png';
@@ -79,6 +80,7 @@ function QuemSomos() {
                     Instagran :@projetosurfar
                 </p>
             </div>
+            <Footer />
         </div>
 
     );

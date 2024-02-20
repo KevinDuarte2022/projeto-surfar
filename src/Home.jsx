@@ -6,6 +6,7 @@ import Carrossel from "./Carrossel"
 import { Container } from "bootstrap-4-react/lib/components/layout";
 import { useNavigate } from "react-router-dom";
 import ListGroup from 'react-bootstrap/ListGroup';
+import Footer from "./Footer"
 
 function Home() {
     let navigate = useNavigate();
@@ -22,6 +23,7 @@ function Home() {
                 <ListGroup.Item>R$50</ListGroup.Item>
                 <ListGroup.Item>Outro valor</ListGroup.Item>
             </ListGroup>
+            <Footer />
         </div>
     )
 };

@@ -102,11 +102,14 @@ body {
 }
 
 .paragrafoQuemSomos {
+    background-color: white;
     font-size: 20px;
     text-align: justify;
     margin-top: 30px;
     margin: 0 auto;
     width: 63%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .imgQuemSomosP {
@@ -114,6 +117,7 @@ body {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 .tituloParagrafo {

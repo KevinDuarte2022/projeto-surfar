@@ -36,15 +36,15 @@ function QuemSomos() {
                     Em 2006 o início tiveram 80 pessoas beneficiadas, 04 voluntários, 05 apoiadores, oficinas de alfabetização, reforço escolar e capoeira.
                     <img src={ImagemP2} className="imgQuemSomosP" />
                 </p>
-
+                
                 <h3 className="tituloParagrafo">24 anos Projeto Surfar</h3>
                 <p>
-                    
+                 
 
                     No ano de 2024, estamos completando 24 anos de existência. Com 1500 Pessoas beneficiadas e 9 Oficinas: Capoeira, surf, Jiu jitsu, alfabetização, reforço escolar, música, culinária, Skate. 09 Comunidades atendidas. A Associação Projeto Surfar está situada na Rua Borborema, 687 e 691, na vila João Pessoa - Porto Alegre/RS.
                     <img src={ImagemP3} className="imgQuemSomosP" />
                 </p>
-
+                
                 <h3 className="tituloParagrafo">Registro e mais</h3>
                 <p>
                    

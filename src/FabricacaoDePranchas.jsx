@@ -1,14 +1,14 @@
 import NavBarComponent from "./NavBar"
 import Footer from "./Footer"
 
-function Consultoria(){
+function FabricacaoDePranchas(){
     return(
         <div>
             <NavBarComponent/>
-            <h1>Teste de CONSULTORIA</h1>
+            <h1>Teste de Fabricação De Pranchas</h1>
             <Footer />
         </div>
     )
 }
 
-export default Consultoria;
+export default FabricacaoDePranchas;

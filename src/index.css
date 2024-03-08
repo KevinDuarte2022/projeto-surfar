@@ -93,7 +93,7 @@ body {
 
 .doarHome {
     font-size: 45px;
-    background-color: rgb(182, 184, 231);
+    background-color: rgb(212, 212, 212);
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
@@ -122,4 +122,34 @@ body {
     text-align: center;
     font-size: 30px;
 
+}
+
+ 
+.footer-middle{
+    background-color: rgb(14, 18, 96);
+    padding-top: 3rem;
+    color: white;
+    
+    
+}
+
+.footer-bottom{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.linkh4{
+    color: rgb(192, 190, 190);
+    text-decoration: none;
+}
+.linkh4:hover{
+    color: rgb(232, 60, 117);
+    text-decoration: underline;
+}
+.kevin{
+    text-decoration: none;
+    color: rgb(232, 60, 117);
+}
+.kevin:hover{
+    text-decoration: underline;
 }

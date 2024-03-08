@@ -18,7 +18,7 @@ function NavBarComponent() {
           <Link to="/seja-voluntario">SEJA UM VOLUNTÁRIO</Link>
           <Link to="/cursos-ofertados">CURSOS OFERTADOS</Link>
           <Link to="/projetos">PROJETOS</Link>
-          <Link to="/consultoria">CONSULTORIA PARA ONGS</Link>
+          <Link to="/fabricacao-de-pranchas">FABRICAÇÃO DE PRANCHAS</Link>
           <Link to="/fale-conosco">FALE CONOSCO</Link>
           </Nav>
         </Navbar.Collapse>

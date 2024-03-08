@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SejaVoluntario from './SejaVoluntario.jsx';
 import Cursos from './Cursos.jsx';
 import Projetos from './Projetos.jsx';
-import Consultoria from './Consultoria.jsx';
+import FabricacaoDePranchas from './FabricacaoDePranchas.jsx';
 import FaleConosco from './FaleConosco.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Route Component={SejaVoluntario} path='/seja-voluntario' exact/>
     <Route Component={Cursos} path='/cursos-ofertados' exact/>
     <Route Component={Projetos} path='/projetos' exact/>
-    <Route Component={Consultoria} path='/consultoria' exact/>
+    <Route Component={FabricacaoDePranchas} path='/fabricacao-de-pranchas' exact/>
     <Route Component={FaleConosco} path='fale-conosco' exact />
     
 

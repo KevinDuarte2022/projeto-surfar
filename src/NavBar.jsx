@@ -2,12 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import ImagemMenino from './img/Design sem nome (2).png';
 
 
 
 function NavBarComponent() {
   return (
     <Navbar expand="lg" className="menu">
+        <img src={ImagemMenino} style={{width: '30px', height: '30px'}} />
       <Container className="mx-auto">
         <Link to="/">HOME</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

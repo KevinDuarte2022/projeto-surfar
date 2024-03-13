@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    background-image: linear-gradient(to right,  whitesmoke, whitesmoke, whitesmoke , whitesmoke , whitesmoke , whitesmoke , whitesmoke, whitesmoke, whitesmoke, whitesmoke, whitesmoke , rgb(196, 196, 253),rgb(146, 146, 252) );
+    
 }
 
 .titulo {
@@ -64,14 +65,14 @@ body {
 
 }
 
-.imgQuemSomos {
+.imgCapas {
     display: block;
     width: 100%;
     position: relative;
     transition: 0.5s ease;
 }
 
-.imgQuemSomos:hover {
+.imgCapas:hover {
     width: 103%;
     transition: 0.5s ease;
 
@@ -106,6 +107,7 @@ body {
     font-size: 20px;
     text-align: justify;
     margin-top: 30px;
+    margin-bottom: 0;
     margin: 0 auto;
     width: 63%;
     padding-left: 15px;
@@ -118,9 +120,11 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .tituloParagrafo {
+    padding-top: 2rem;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
@@ -128,32 +132,163 @@ body {
 
 }
 
- 
-.footer-middle{
+.tituloParagrafo01 {
+    padding-top: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.footer-middle {
     background-color: rgb(14, 18, 96);
     padding-top: 3rem;
     color: white;
-    
-    
+
+
 }
 
-.footer-bottom{
+.footer-bottom {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
-.linkh4{
+.linkh4 {
     color: rgb(192, 190, 190);
     text-decoration: none;
 }
-.linkh4:hover{
+
+.linkh4:hover {
     color: rgb(232, 60, 117);
     text-decoration: underline;
 }
-.kevin{
+
+.kevin {
     text-decoration: none;
     color: rgb(232, 60, 117);
 }
-.kevin:hover{
+
+.kevin:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 450px) {
+    .paragrafoQuemSomos {
+        background-color: white;
+        font-size: 17px;
+        text-align: justify;
+        margin-top: 30px;
+        width: 95%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}
+
+/* Doe aqui */
+
+.divMae{
+    display: block;
+}
+.justificar{
+    text-align: justify;
+    padding-right: 3rem;
+}
+
+.tituloh3{
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    
+    font-size: 30px;
+}
+.subtitulo{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1rem;
+   
+}
+
+.vemFazerParte{
+    display: inline-block;
+    background-color: white;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+    margin-right: 40rem;
+    margin-bottom: 4rem;
+}
+
+.tituloPix{
+    font-size: 22px;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+}
+
+.textoDoar{
+    font-size: 20px;
+    padding-left: 4.5rem;
+    margin-top: 1rem;
+}
+
+.tituloPix02{
+    font-size: 20px;
+    padding-left: 6rem;
+    font-weight: bold;
+}
+
+.botaoPix{
+    
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 6rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding: 0.4rem 2rem;
+    background: rgb(14, 18, 96);
+    cursor: pointer;
+    border-radius: 1rem;
+    border-radius: 2.5rem;
+    color: white;
+    transition: .2s ease-in-out;
+    border: 2px solid rgb(14, 18, 96);
+}
+
+.botaoPix:hover{
+    background-color: white;
+    color: black;
+}
+
+.textoDoar02{
+    padding-left: 6rem;
+    padding-right: 8rem;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.teste{
+    background-color: #fbfbfb;;
+}
+.sejaUmVoluntarioBox{
+    display: inline-block;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+}
+
+.veja{
+    text-align: center;
+    
 }

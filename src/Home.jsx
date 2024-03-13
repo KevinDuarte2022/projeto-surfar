@@ -23,6 +23,7 @@ function Home() {
                 <ListGroup.Item>R$50</ListGroup.Item>
                 <ListGroup.Item>Outro valor</ListGroup.Item>
             </ListGroup>
+            <div className="teste"><p>Você pode doar um brinquedo e fazer uma criança feliz</p></div>
             <Footer />
         </div>
     )

@@ -1,6 +1,7 @@
 body {
-    background-image: linear-gradient(to right,  whitesmoke, whitesmoke, whitesmoke , whitesmoke , whitesmoke , whitesmoke , whitesmoke, whitesmoke, whitesmoke, whitesmoke, whitesmoke , rgb(196, 196, 253),rgb(146, 146, 252) );
-    
+    /* background-image: linear-gradient(to right,  whitesmoke, whitesmoke, whitesmoke , whitesmoke , whitesmoke , whitesmoke , whitesmoke, whitesmoke, whitesmoke, whitesmoke, whitesmoke , rgb(196, 196, 253),rgb(146, 146, 252) );
+     */
+     background-color: whitesmoke;
 }
 
 .titulo {
@@ -18,7 +19,7 @@ body {
 }
 
 .menu {
-    height: 8vh;
+    height: 11vh;
     align-items: center;
     justify-content: space-around;
     background-color: rgb(14, 18, 96);
@@ -56,6 +57,12 @@ body {
     width: 100%;
     transition: 0.4s ease;
     color: whitesmoke;
+}
+
+.imglogo{
+    width: 100px;
+    margin-left: 10rem;
+    
 }
 
 .redimensionar-imagem {
@@ -213,16 +220,14 @@ body {
 }
 
 .vemFazerParte{
-    display: inline-block;
     background-color: white;
-    margin-top: 4rem;
     margin-left: 2.5rem;
-    margin-right: 40rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 2%;
 }
 
 .tituloPix{
-    font-size: 22px;
+    font-size: 26px;
     padding-top: 3rem;
     padding-left: 4.5rem;
 }
@@ -231,12 +236,14 @@ body {
     font-size: 20px;
     padding-left: 4.5rem;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .tituloPix02{
     font-size: 20px;
     padding-left: 6rem;
     font-weight: bold;
+    
 }
 
 .botaoPix{
@@ -277,18 +284,28 @@ body {
 .sejaUmVoluntarioBox{
     display: inline-block;
     background-color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-top: 15rem;
     padding-bottom: 1rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    text-align: center;
     margin-left: 3rem;
     margin-bottom: 2rem;
     border-radius: 5%;
+    width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.sejaUmVoluntarioBox:hover{
+    font-size: 22px;
+    transition: .5s ease-in-out;
 }
 
 .veja{
     text-align: center;
     
+}
+.imgSejaVBox{
+    width: 100%;
 }

@@ -2,9 +2,15 @@ import NavBarComponent from "./NavBar";
 import Footer from "./Footer";
 import ImagemDoeAqui from './img/Doe-aqui-capa.png';
 import { Link } from "react-router-dom";
-import ImagemDentista from './img/dentista-editado.png';
+import ImagemCatastrofe01 from './img/catastrofe01.png';
+import ImagemCatastrofe02 from './img/catastrofe02.png';
+import ImagemCatastrofe03 from './img/catastrofe03.png';
+import ImagemCatastrofe04 from './img/catastrofe04.png';
+import Colaboradores from "./colaboradores";
+
 
 function DoeAqui() {
+
     return (
         <div>
             <NavBarComponent />
@@ -44,29 +50,56 @@ function DoeAqui() {
                         </div>
                         <div className="col-md-3">
                             <Link to="/seja-voluntario">
-                                <div className="sejaUmVoluntarioBox">
-                                    {/* <img src={ImagemDentista} className="imgSejaVBox"/> */}
+                                <div className="sejaUmVoluntarioBox01">
+
                                     <p>SEJA UM VOLUNTÁRIO</p>
 
                                 </div>
                             </Link>
-                            <div className="sejaUmVoluntarioBox">
 
-                                <p>CURSOS OFERTADOS</p>
-                            </div>
-                            <div className="sejaUmVoluntarioBox">
+                            <Link to='/cursos-ofertados'>
+                                <div className="sejaUmVoluntarioBox02">
 
-                                <p>FABRICAÇÃO DE PRANCHAS</p>
-                            </div>
+                                    <p>CURSOS OFERTADOS</p>
+                                </div>
+                            </Link>
 
+                            <Link to='/fabricacao-de-pranchas'>
+                                <div className="sejaUmVoluntarioBox03">
+
+                                    <p>FABRICAÇÃO DE PRANCHAS</p>
+                                </div>
+                            </Link>
 
 
                         </div>
                     </div>
                 </div>
+
+                <div className="divCatastrofe">
+
+                    <h3 className="tituloh3">Em 16 de junho de 2023, tivemos uma catástrofe natural que arruinou parte de nossa estrutura</h3>
+                    <h4 className="subtitulo">Sua doação vai ajudar na reestruturação</h4>
+                    <div className="row">
+                        
+                            
+                            <img src={ImagemCatastrofe01} className="imgcat col-md-6 col-sm-6" />
+                            <img src={ImagemCatastrofe02} className="imgcat col-md-6 col-sm-6" />
+                            <img src={ImagemCatastrofe03} className="imgcat col-md-6 col-sm-6" />
+                            <img src={ImagemCatastrofe04} className="imgcat col-md-6 col-sm-6" />
+
+                        
+
+                        <button className="botaoPix">Copiar chave pix</button>
+                    </div>
+                </div>
             </div>
+            <Colaboradores/>
             <Footer />
+
+
         </div>
+
     )
 }
 

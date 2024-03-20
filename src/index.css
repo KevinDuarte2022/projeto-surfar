@@ -1,7 +1,7 @@
 body {
     /* background-image: linear-gradient(to right,  whitesmoke, whitesmoke, whitesmoke , whitesmoke , whitesmoke , whitesmoke , whitesmoke, whitesmoke, whitesmoke, whitesmoke, whitesmoke , rgb(196, 196, 253),rgb(146, 146, 252) );
      */
-     background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 .titulo {
@@ -59,10 +59,10 @@ body {
     color: whitesmoke;
 }
 
-.imglogo{
+.imglogo {
     width: 100px;
     margin-left: 10rem;
-    
+
 }
 
 .redimensionar-imagem {
@@ -119,6 +119,7 @@ body {
     width: 63%;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 0.5%;
 }
 
 .imgQuemSomosP {
@@ -191,63 +192,72 @@ body {
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+
 }
 
 /* Doe aqui */
 
-.divMae{
+.divMae {
     display: block;
 }
-.justificar{
+
+.justificar {
     text-align: justify;
     padding-right: 3rem;
 }
 
-.tituloh3{
+.tituloh3 {
     text-align: center;
     padding-top: 1rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    
+
     font-size: 30px;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 18px;
     text-align: center;
     margin-bottom: 1rem;
-   
+
 }
 
-.vemFazerParte{
+.vemFazerParte {
     background-color: white;
     margin-left: 2.5rem;
     margin-bottom: 2rem;
     border-radius: 2%;
 }
+.vemFazerParte02 {
+    background-color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 2%;
+}
 
-.tituloPix{
+.tituloPix {
     font-size: 26px;
     padding-top: 3rem;
     padding-left: 4.5rem;
 }
 
-.textoDoar{
+.textoDoar {
     font-size: 20px;
     padding-left: 4.5rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
-.tituloPix02{
+.tituloPix02 {
     font-size: 20px;
     padding-left: 6rem;
     font-weight: bold;
-    
+
 }
 
-.botaoPix{
-    
+.botaoPix {
+
     color: white;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
@@ -265,12 +275,12 @@ body {
     border: 2px solid rgb(14, 18, 96);
 }
 
-.botaoPix:hover{
+.botaoPix:hover {
     background-color: white;
     color: black;
 }
 
-.textoDoar02{
+.textoDoar02 {
     padding-left: 6rem;
     padding-right: 8rem;
     font-size: 20px;
@@ -278,10 +288,12 @@ body {
 
 }
 
-.teste{
-    background-color: #fbfbfb;;
+.teste {
+    background-color: #fbfbfb;
+    ;
 }
-.sejaUmVoluntarioBox{
+
+.sejaUmVoluntarioBox {
     display: inline-block;
     background-color: white;
     color: black;
@@ -297,15 +309,107 @@ body {
     transition: .3s ease-in-out;
 }
 
-.sejaUmVoluntarioBox:hover{
-    font-size: 22px;
-    transition: .5s ease-in-out;
+
+
+.sejaUmVoluntarioBox01 {
+    background-image: url(img/dentista-editado.png);
+    display: inline-block;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+    width: 100%;
+    transition: .3s ease-in-out;
 }
 
-.veja{
-    text-align: center;
-    
+.sejaUmVoluntarioBox01:hover {
+    opacity: 0.8;
+    transition: .3s ease-in-out;
 }
-.imgSejaVBox{
+.sejaUmVoluntarioBox02 {
+    background-image: url(img/capoeira-editada.png);
+    display: inline-block;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 5%;
     width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.sejaUmVoluntarioBox02:hover {
+    opacity: 0.8;
+    transition: .3s ease-in-out;
+}
+.sejaUmVoluntarioBox03 {
+    background-image: url(img/prancha-01.png);
+    display: inline-block;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+    width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.sejaUmVoluntarioBox03:hover {
+    opacity: 0.8;
+    transition: .3s ease-in-out;
+}
+
+
+.veja {
+    text-align: center;
+
+}
+
+.imgSejaVBox {
+    width: 100%;
+}
+
+.divCatastrofe {
+    background-color: white;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.imgcat{
+    width: 40%;
+    margin-left: 5%;
+    
+    border-radius: 12%;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+/* Colaboradores */
+
+.colaboradores{
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+}
+
+.logosColaboradores{
+    width: 300px;
+    margin: auto;
 }

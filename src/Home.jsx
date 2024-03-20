@@ -7,6 +7,7 @@ import { Container } from "bootstrap-4-react/lib/components/layout";
 import { useNavigate } from "react-router-dom";
 import ListGroup from 'react-bootstrap/ListGroup';
 import Footer from "./Footer"
+import Colaboradores from "./colaboradores";
 
 function Home() {
     let navigate = useNavigate();
@@ -24,6 +25,7 @@ function Home() {
                 <ListGroup.Item>Outro valor</ListGroup.Item>
             </ListGroup>
             <div className="teste"><p>Você pode doar um brinquedo e fazer uma criança feliz</p></div>
+            <Colaboradores />
             <Footer />
         </div>
     )

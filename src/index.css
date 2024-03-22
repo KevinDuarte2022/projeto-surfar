@@ -97,8 +97,42 @@ body {
     padding-right: 15px;
     padding-bottom: 1rem;
     border-radius: 2%;
+    transition: .2s ease-in-out;
 }
 
+.doarHome{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 3%;
+    padding-bottom: 2rem;
+}
+
+.tituloPixHome {
+    font-size: 26px;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.textoDoarHome {
+    font-size: 20px;
+    text-align: center;
+}
+
+.divMeio{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.imgPraia{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    display: block;
+    width: 70%;
+    border-radius:4%;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;;
+}
 /* Quem somos */
 
 .tituloQuemSomos {

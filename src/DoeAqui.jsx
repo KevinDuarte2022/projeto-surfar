@@ -87,7 +87,7 @@ function DoeAqui() {
                             <img src={ImagemCatastrofe04} className="imgcat" />
                     </div>
                     <div>
-                    <button className="botaoPix02">Ser um apadrinhador</button>
+                    <button className="botaoPix02">Copiar chave pix</button>
                     </div>
                 </div>
             </div>

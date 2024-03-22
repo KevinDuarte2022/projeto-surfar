@@ -4,6 +4,7 @@ body {
     background-color: whitesmoke;
 }
 
+/* Home */
 .titulo {
     text-align: center;
     color: aliceblue;
@@ -85,6 +86,21 @@ body {
 
 }
 
+.QuemSomosHome{
+    background-color: white;font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1rem;
+    border-radius: 2%;
+}
+
+/* Quem somos */
+
 .tituloQuemSomos {
     position: absolute;
     left: 100px;
@@ -99,15 +115,7 @@ body {
     margin: auto;
 }
 
-.doarHome {
-    font-size: 45px;
-    background-color: rgb(212, 212, 212);
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .paragrafoQuemSomos {
     background-color: white;
@@ -116,10 +124,15 @@ body {
     margin-top: 30px;
     margin-bottom: 0;
     margin: 0 auto;
-    width: 63%;
+    width: 90%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 0.5%;
+}
+
+.paragrafoQuemSomos02{
+    width: 90%;
+    margin: auto;
 }
 
 .imgQuemSomosP {
@@ -211,7 +224,16 @@ body {
     padding-top: 1rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    font-size: 30px;
+}
 
+.tituloh3-1 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 30px;
 }
 
@@ -276,6 +298,29 @@ body {
 }
 
 .botaoPix:hover {
+    background-color: white;
+    color: black;
+}
+.botaoPix02 {
+
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 6rem;
+    display: inline-block;  
+    text-align: center;
+    font-size: 15px;
+    padding: 0.4rem 2rem;
+    background: rgb(14, 18, 96);
+    cursor: pointer;
+    border-radius: 1rem;
+    border-radius: 2.5rem;
+    color: white;
+    transition: .2s ease-in-out;
+    border: 2px solid rgb(14, 18, 96);
+}
+
+.botaoPi02:hover {
     background-color: white;
     color: black;
 }
@@ -392,12 +437,12 @@ body {
 }
 
 .imgcat{
-    width: 40%;
-    margin-left: 5%;
-    
-    border-radius: 12%;
+    width: 25%;
+    margin: auto 0;
+    border-radius: 15%;
     padding-top: 3rem;
     padding-left: 3rem;
+    padding-right: 3rem;
     padding-bottom: 3rem;
 }
 /* Colaboradores */

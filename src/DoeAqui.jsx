@@ -78,19 +78,16 @@ function DoeAqui() {
 
                 <div className="divCatastrofe">
 
-                    <h3 className="tituloh3">Em 16 de junho de 2023, tivemos uma catástrofe natural que arruinou parte de nossa estrutura</h3>
-                    <h4 className="subtitulo">Sua doação vai ajudar na reestruturação</h4>
-                    <div className="row">
-                        
-                            
-                            <img src={ImagemCatastrofe01} className="imgcat col-md-6 col-sm-6" />
-                            <img src={ImagemCatastrofe02} className="imgcat col-md-6 col-sm-6" />
-                            <img src={ImagemCatastrofe03} className="imgcat col-md-6 col-sm-6" />
-                            <img src={ImagemCatastrofe04} className="imgcat col-md-6 col-sm-6" />
-
-                        
-
-                        <button className="botaoPix">Copiar chave pix</button>
+                    <h3 className="tituloh3-1">Em 16 de junho de 2023, tivemos uma catástrofe natural que arruinou parte de nossa estrutura, e a estrutura da casa de várias famílias</h3>
+                    <h4 className="subtitulo">Sua doação vai ajudar na reestruturação da Ong e de muitas famílias</h4>
+                    <div className="row">    
+                            <img src={ImagemCatastrofe01} className="imgcat" />
+                            <img src={ImagemCatastrofe02} className="imgcat" />
+                            <img src={ImagemCatastrofe03} className="imgcat" />
+                            <img src={ImagemCatastrofe04} className="imgcat" />
+                    </div>
+                    <div>
+                    <button className="botaoPix02">Ser um apadrinhador</button>
                     </div>
                 </div>
             </div>

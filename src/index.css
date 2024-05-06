@@ -86,8 +86,9 @@ body {
 
 }
 
-.QuemSomosHome{
-    background-color: white;font-size: 20px;
+.QuemSomosHome {
+    background-color: white;
+    font-size: 20px;
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 0;
@@ -100,7 +101,7 @@ body {
     transition: .2s ease-in-out;
 }
 
-.doarHome{
+.doarHome {
     background-color: white;
     width: 90%;
     margin: auto;
@@ -119,20 +120,22 @@ body {
     text-align: center;
 }
 
-.divMeio{
+.divMeio {
     padding-top: 5rem;
     padding-bottom: 3rem;
 }
-.imgPraia{
+
+.imgPraia {
     padding-top: 2rem;
     padding-bottom: 1rem;
     margin: auto;
     display: block;
     width: 70%;
-    border-radius:4%;
+    border-radius: 4%;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
 }
+
 /* Quem somos */
 
 .tituloQuemSomos {
@@ -164,7 +167,7 @@ body {
     border-radius: 0.5%;
 }
 
-.paragrafoQuemSomos02{
+.paragrafoQuemSomos02 {
     width: 90%;
     margin: auto;
 }
@@ -284,6 +287,7 @@ body {
     margin-bottom: 2rem;
     border-radius: 2%;
 }
+
 .vemFazerParte02 {
     background-color: white;
     margin-left: 3rem;
@@ -335,13 +339,14 @@ body {
     background-color: white;
     color: black;
 }
+
 .botaoPix02 {
 
     color: white;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     margin-left: 6rem;
-    display: inline-block;  
+    display: inline-block;
     text-align: center;
     font-size: 15px;
     padding: 0.4rem 2rem;
@@ -411,6 +416,7 @@ body {
     opacity: 0.8;
     transition: .3s ease-in-out;
 }
+
 .sejaUmVoluntarioBox02 {
     background-image: url(img/capoeira-editada.png);
     display: inline-block;
@@ -432,6 +438,7 @@ body {
     opacity: 0.8;
     transition: .3s ease-in-out;
 }
+
 .sejaUmVoluntarioBox03 {
     background-image: url(img/prancha-01.png);
     display: inline-block;
@@ -470,7 +477,7 @@ body {
     padding-top: 1rem;
 }
 
-.imgcat{
+.imgcat {
     width: 25%;
     margin: auto 0;
     border-radius: 15%;
@@ -479,16 +486,26 @@ body {
     padding-right: 3rem;
     padding-bottom: 3rem;
 }
+
 /* Colaboradores */
 
-.colaboradores{
+.colaboradores {
     background-color: white;
     margin-top: 4rem;
     margin-bottom: 4rem;
     padding-bottom: 3rem;
 }
 
-.logosColaboradores{
+.logosColaboradores {
     width: 300px;
     margin: auto;
+}
+
+/* cursos */
+
+.curso01 {
+    font-size: 20px;
+    
+    margin-top: 1rem;
+    text-align: center;
 }

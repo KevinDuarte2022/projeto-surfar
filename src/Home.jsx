@@ -73,9 +73,9 @@ function Home() {
             <p className="textoDoarHome" style={{ width: '80%', margin: 'auto' }}>
               Agradecemos e aproveitamos para convidá-lo a vir surfar com a gente e fazer a diferneça! "Se mais pessoas surfarem e estiverem conectadas com esses valores, o mundo será um lugar melhor"
               CONTATO: Associação Projeto Surfar -PoA/RS F: 51- 3384 9728 /51-98401 7604
-              email :ongsurfar@hotmail.com
+              email: ongsurfar@hotmail.com
               facebook: associação Projeto Surfar
-              Instagran :@projetosurfar
+              Instagran: @projetosurfar
             </p>
             <div >
               <img src={ImagemPraia} className="imgPraia" />

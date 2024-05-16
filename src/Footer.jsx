@@ -49,8 +49,9 @@ function Footer() {
                     </div>
                     {/* Footer botão */}
                     <div className="footer-bottom">
+                        
                         <p className="text-xs-center">
-                            &copy;{new Date().getFullYear() + ","} Desenvolvido por <a href="/" className="kevin">Kevin Duarte.</a>
+                            &copy;{new Date().getFullYear() + ","} Desenvolvido por <a target='_blank' href="https://kevinduarte2022.github.io/" className="kevin">Kevin Duarte.</a>
                         </p>
                     </div>
                 </div>

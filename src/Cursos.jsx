@@ -75,7 +75,7 @@ function Cursos() {
                     </div>
                 </div>
                 <div>
-                    <button className="botaoPix02">Me inscrever em um curso</button>
+                    <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+cursos+ofertados+pela+institui%C3%A7%C3%A3o.+" target="_blank"><button className="botaoPix">Me inscrever em um curso</button></a>
                 </div>
             </div>
             <Colaboradores />

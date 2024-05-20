@@ -34,19 +34,19 @@ function DoeAqui() {
                             <p className="textoDoar02">
                                 Você pode doar um brinquedo e fazer uma criança feliz.
                             </p>
-                            <button className="botaoPix">Fale conosco para doar</button>
+                            <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+doar+brinquedos+para+ONG%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Fale conosco para doar</button></a>
 
                             <h4 className="tituloPix02">Doar vestimentas</h4>
                             <p className="textoDoar02">
                                 Você pode doar cobertores, agasalhos ou calçados para ajudar uma criança ou uma família.
                             </p>
-                            <button className="botaoPix">Fale conosco para doar</button>
+                            <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+doar+vestimentas+para+ONG%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Fale conosco para doar</button></a>
 
                             <h4 className="tituloPix02">Apadrinhamento</h4>
                             <p className="textoDoar02">
                                 O apadrinhamento acontece na forma de colaboração mensal com depósitos recorrentes na conta da instituição.
                             </p>
-                            <button className="botaoPix">Ser um apadrinhador</button>
+                            <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+ser+um+apadrinhador%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Ser um apadrinhador</button></a>
                         </div>
                         <div className="col-md-3">
                             <Link to="/seja-voluntario">

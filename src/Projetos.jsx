@@ -47,6 +47,9 @@ function Projetos() {
                             <p className="paragrafoCursos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore laborum impedit rem! Omnis accusamus hic incidunt, cupiditate tenetur, maiores officiis voluptatem nemo ad sunt aliquam suscipit magni quo nobis.
                             </p>
                         </div>
+                        <div>
+                            <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+projetos+ofertados+pela+institui%C3%A7%C3%A3o." target="_blank"><button className="botaoPix">Me inscrever em um projeto</button></a>
+                        </div>
 
                     </div>
 

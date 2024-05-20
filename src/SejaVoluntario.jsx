@@ -35,7 +35,7 @@ function SejaVoluntario() {
                             <p className="textoDoar02">
                                 Tem outra forma que você possa ajudar a gente? Seu talento vai ser muito bem vindo nesse projeto que tranforma vidas.
                             </p>
-                            <button className="botaoPix">Se tornar voluntário</button>
+                            <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+me+tornar+um+volunt%C3%A1rio+na+ONG+Projeto+Surfar."><button className="botaoPix">Se tornar voluntário</button></a>
                         </div>
                         <Colaboradores/>
                         <Footer />

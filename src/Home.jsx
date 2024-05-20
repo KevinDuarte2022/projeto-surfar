@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import NavBarComponent from "./NavBar"
 import './index.css';
@@ -17,6 +17,14 @@ function Home() {
   const doar10 = (string) => {
     navigate('/doe-aqui', { valor: string });
   };
+  
+  const [textoPix, setTextoPix] = useState ('Copiar chave pix');
+  const copiarChavePix = () => {
+    navigator.clipboard.writeText('85985911220')
+    setTextoPix ('Chave pix copiada')
+  
+  }
+
   return (
     <div>
       <NavBarComponent />
@@ -47,22 +55,27 @@ function Home() {
           <p className="textoDoarHome">
             É simples. Para ajudar o Projeto Surfar, as crianças, os adolescentes e idosos beneficiados pela instituição, você pode:
           </p>
-          <button className="botaoPix">Copiar chave pix</button>
+          <p className="textoDoarHome">
+          <button onClick={()=>{copiarChavePix()}}  className="botaoPix">{textoPix}</button>
+          </p>
           <h3 className="tituloPixHome">O que mais posso doar?</h3>
           <p className="textoDoarHome">
             Você também pode ajudar de outras formas.
           </p>
+          <p className="textoDoarHome">
           <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
-
+          </p>
         </div>
 
         <div className="doarHome" style={{ marginTop: '4rem' }}>
           <div className="divMeio">
             <h3 className="tituloPixHome">Seja um voluntário nessa causa</h3>
-            <p className="textoDoarHome" style={{ width: '60%', margin: 'auto' }}>
+            <p className="textoDoarHome" style={{ width: '60%', margin: 'auto', marginBottom: '16px'  }}>
               O Projeto Surfar trabalha com voluntários. Talvez você tenha algum talento, habilidade ou formação que possa ser útil para ajudar a tranformar a vida de muitas famílias.
             </p>
-            <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
+            <p className="textoDoarHome">
+            <Link to='/seja-voluntario'><button className="botaoPix">Saber mais</button></Link>
+            </p>
           </div>
 
         </div>

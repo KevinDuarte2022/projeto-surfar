@@ -43,17 +43,18 @@ function Footer() {
                             <h4>Agradecemos</h4>
                             <ul className="list-unstyled">
                                 <li className="justificar">Agradecemos e aproveitamos para convidá-los a vir surfar com a gente e fazer a diferença! "Se mais pessoas surfarem e estiverem conectadas com esses valores, o mundo será um lugar melhor".</li>
-                                
+
                             </ul>
                         </div>
                     </div>
                     {/* Footer botão */}
-                    <div className="footer-bottom">
-                        
-                        <p className="text-xs-center">
-                            &copy;{new Date().getFullYear() + ","} Desenvolvido por <a target='_blank' href="https://kevinduarte2022.github.io/" className="kevin">Kevin Duarte.</a>
-                        </p>
-                    </div>
+
+                </div>
+                <div className="footer-bottom">
+
+                    <p className="text-xs-center">
+                        &copy;{new Date().getFullYear() + ","} Desenvolvido por <a target='_blank' href="https://kevinduarte2022.github.io/" className="kevin">Kevin Duarte.</a>
+                    </p>
                 </div>
             </div>
         </div>

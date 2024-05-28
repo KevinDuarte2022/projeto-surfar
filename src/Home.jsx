@@ -9,18 +9,15 @@ import Footer from "./Footer"
 import Colaboradores from "./colaboradores";
 import ImagemP1 from './img/Design sem nome (9).png';
 import ImagemPraia from './img/criancas-praia.jpeg';
-//import QuemSomos from "./QuemSomos";
+import ImgWpp from './img/wpp.png';
+
 
 
 function Home() {
-  let navigate = useNavigate();
-  const doar10 = (string) => {
-    navigate('/doe-aqui', { valor: string });
-  };
-  
+ 
   const [textoPix, setTextoPix] = useState ('Copiar chave pix');
   const copiarChavePix = () => {
-    navigator.clipboard.writeText('85985911220')
+    navigator.clipboard.writeText('09097983000109')
     setTextoPix ('Chave pix copiada')
   
   }
@@ -96,10 +93,15 @@ function Home() {
           </div>
 
         </div>
-
+        
       </div>
       <Colaboradores />
       <Footer />
+      <div className="whatsapp">
+                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <img src={ImgWpp}/>
+                </a>
+            </div>
     </div>
   )
 };

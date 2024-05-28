@@ -10,6 +10,7 @@ import ImgCurso13 from './img/curso13.png'
 import ImgCurso14 from './img/curso14.png'
 import ImgCurso15 from './img/curso15.png'
 import ImgCurso16 from './img/serigrafia.png'
+import ImgWpp from './img/wpp.png';
 
 function Cursos() {
     return (
@@ -75,11 +76,18 @@ function Cursos() {
                     </div>
                 </div>
                 <div>
-                    <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+cursos+ofertados+pela+institui%C3%A7%C3%A3o.+" target="_blank"><button className="botaoPix">Me inscrever em um curso</button></a>
+                    <p className="alinharEsquerda" style={{paddingBottom:'2rem'}}>
+                        <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+cursos+ofertados+pela+institui%C3%A7%C3%A3o.+" target="_blank"><button className="botaoPix">Me inscrever em um curso</button></a>
+                    </p>
                 </div>
             </div>
             <Colaboradores />
             <Footer />
+            <div className="whatsapp">
+                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <img src={ImgWpp}/>
+                </a>
+            </div>
         </div>
     )
 }

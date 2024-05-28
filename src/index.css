@@ -437,7 +437,7 @@ body {
 }
 
 .sejaUmVoluntarioBox03 {
-    background-image: url(img/prancha-01.png);
+    background-image: url(img/projetos-telinha.png);
     display: inline-block;
     background-color: white;
     color: white;
@@ -519,4 +519,34 @@ body {
 .paragrafoCursos{
     font-size: 23px;
     text-align: center;
+    margin-right: 50px;
 }
+
+.alinharEsquerda{
+    padding-left: 5rem;
+
+}
+
+/* botaozap */
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+     
+}
+.whatsapp img{
+   width: 85px;  
+   transition: 0.4s ease;
+}
+
+.whatsapp img:hover{
+   width: 95px;
+   transition: 0.4s ease;
+}
+
+
+    
+
+

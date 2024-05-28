@@ -24,18 +24,17 @@ function Footer() {
                                 <li><Link to="/cursos-ofertados" className="linkh4">Cursos Ofertados</Link></li>
                                 <li><Link to="/projetos" className="linkh4">Projetos</Link></li>
                                 <li><Link to="/fabricacao-de-pranchas" className="linkh4">Fabricação de pranchas</Link></li>
-                                <li><Link to="/fale-conosco" className="linkh4">Fale Conosco</Link></li>
+                                <li><Link target="_blank" to="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+" className="linkh4">Fale Conosco</Link></li>
                             </ul>
                         </div>
                         {/* Coluna 3 */}
                         <div className="col-md-3 col-sm-6">
                             <h4>Contato</h4>
                             <ul className="list-unstyled">
-                                <li><a href="/" className="linkh4">Tel: 51-3384 9728</a></li>
-                                <li><a href="/" className="linkh4">Tel: 51-98401 7604</a></li>
-                                <li><a href="/" className="linkh4">email: ongsurfar@hotmail.com</a></li>
-                                <li><a href="/" className="linkh4">facebook: associação Projeto Surfar</a></li>
-                                <li><a href="/" className="linkh4">Instagram: @projetosurfar</a></li>
+                                <li><a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+" className="linkh4">Tel: 51-98401 7604</a></li>
+                                <li><a target="_blank" href="https://www.google.com/intl/pt-BR/gmail/about/" className="linkh4">email: ongsurfar@hotmail.com</a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100064879410278&name=xhp_nt__fb__action__open_user" className="linkh4">facebook: associação Projeto Surfar</a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/projetosurfar?igsh=MXU2aXpramVmdnE5Zw==" className="linkh4">Instagram: @projetosurfar</a></li>
                             </ul>
                         </div>
                         {/* Coluna 4 */}
@@ -52,7 +51,7 @@ function Footer() {
                 </div>
                 <div className="footer-bottom">
 
-                    <p className="text-xs-center">
+                    <p className="text-xs-center" style={{padding: '3rem'}}>
                         &copy;{new Date().getFullYear() + ","} Desenvolvido por <a target='_blank' href="https://kevinduarte2022.github.io/" className="kevin">Kevin Duarte.</a>
                     </p>
                 </div>

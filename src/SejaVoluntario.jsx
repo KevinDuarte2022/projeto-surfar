@@ -2,6 +2,7 @@ import NavBarComponent from "./NavBar";
 import Footer from "./Footer"
 import ImagemSejaVoluntario from './img/seja-um-voluntario.png'
 import Colaboradores from "./colaboradores";
+import ImgWpp from './img/wpp.png';
 
 function SejaVoluntario() {
     return (
@@ -35,13 +36,20 @@ function SejaVoluntario() {
                             <p className="textoDoar02">
                                 Tem outra forma que você possa ajudar a gente? Seu talento vai ser muito bem vindo nesse projeto que tranforma vidas.
                             </p>
+                            <p className="alinharEsquerda" style={{paddingBottom:'2rem'}}>
                             <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+me+tornar+um+volunt%C3%A1rio+na+ONG+Projeto+Surfar."><button className="botaoPix">Se tornar voluntário</button></a>
+                            </p>
                         </div>
                         <Colaboradores/>
                         <Footer />
                     </div>
 
                 </div>
+            </div>
+            <div className="whatsapp">
+                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <img src={ImgWpp} />
+                </a>
             </div>
         </div>
 

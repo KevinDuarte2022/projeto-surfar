@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Imagem01 from './img/Design sem nome (7).png';
 import Imagem02 from './img/Design sem nome (2).png';
-import Imagem03 from './img/Design sem nome (4).png'
+import Imagem03 from './img/cuidadora-de-idosa.png'
 import Imagem04 from './img/Design sem nome (5).png'
 import Imagem05 from'./img/Design sem nome (8).png'
 import Imagem06 from'./img/Design sem nome (6).png'

@@ -10,6 +10,7 @@ import ImagemP5 from './img/CORTE E COSTURA.png';
 import ImagemP6 from './img/fila.png';  
 import ImagemP7 from './img/mãos.png';
 import ImagemP8 from './img/homemSentado.png';
+import ImgWpp from './img/wpp.png';
 
 function QuemSomos() {
     return (
@@ -56,7 +57,7 @@ function QuemSomos() {
                 <p className="paragrafoQuemSomos02">
 
 
-                    A OSC está registrada no CMDCA - PoA/RS, com Serviço de Apoio a Rede de Atendimento. Executa o atendimento direto e indireto durante os dias da semana no turno inverso a escola com atividades voltadas para educação, saúde, esporte, cultura e lazer para beneficiados de 0 a 14 anos, tendo como braço forte a Escola de capoeira "Berimabal dos Sonhos" e o Jiu Jitsu.
+                    A OSC está registrada no CMDCA - PoA/RS, com Serviço de Apoio a Rede de Atendimento. Executa o atendimento direto e indireto durante os dias da semana no turno inverso a escola com atividades voltadas para educação, saúde, esporte, cultura e lazer para beneficiados de 0 a 14 anos, tendo como braço forte a Escola de capoeira "Berimabalando Sonhos" e o Jiu Jitsu.
                     <img src={ImagemP4} className="imgQuemSomosP" />
                 </p>
 
@@ -100,16 +101,22 @@ function QuemSomos() {
 
 
 
-                <p className="paragrafoQuemSomos02">
+                <p className="paragrafoQuemSomos02" style={{paddingBottom:'3rem'}}> 
                     AGRADECEMOS E APROVEITAMOS PARA CONVIDÁ-LOS A VIR SURFAR COM A GENTE E FAZER A DIFERENÇA! "Se mais pessoas surfarem e estiverem conectadas com esses valores, o mundo será um lugar melhor"<br></br>
                     CONTATO: Associação Projeto Surfar -PoA/RS F: 51- 3384 9728 /51-98401 7604<br></br>
-                    email :ongsurfar@hotmail.com<br></br>
+                    email: ongsurfar@hotmail.com<br></br>
                     facebook: associação Projeto Surfar<br></br>
-                    Instagran :@projetosurfar
+                    Instagram: @projetosurfar
+                    
                 </p>
             </div>
             <Colaboradores />
             <Footer />
+            <div className="whatsapp">
+                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <img src={ImgWpp} width={'85px'} />
+                </a>
+            </div>
         </div>
 
     );

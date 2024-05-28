@@ -1,8 +1,12 @@
-import NavBarComponent from "./NavBar"
-import Footer from "./Footer"
+import NavBarComponent from "./NavBar";
+import Footer from "./Footer";
 import Colaboradores from "./colaboradores";
-import ImagemPranchaCapa from './img/prancha capa.png'
-import ImagemPrancha01 from './img/prancha-01.png'
+import ImagemPranchaCapa from './img/prancha capa.png';
+import ImagemPrancha01 from './img/prancha-01.png';
+import ImgWpp from './img/wpp.png';
+
+
+
 
 function FabricacaoDePranchas() {
     return (
@@ -12,15 +16,19 @@ function FabricacaoDePranchas() {
 
             <div className="divCatastrofe">
 
-                <h3 className="tituloh3-1">Em 16 de junho de 2023, tivemos uma catástrofe natural que arruinou parte de nossa estrutura, e a estrutura da casa de várias famílias</h3>
-                <h4 className="subtitulo">Sua doação vai ajudar na reestruturação da Ong e de muitas famílias</h4>
+                <h3 className="tituloh3-1">Fabricação de pranchas</h3>
+                <h4 className="subtitulo">Venha conferir nosso catálogo</h4>
                 <div className="row">
                     <img src={ImagemPrancha01} className="imgcat" />
-                    {/* <img src={ImagemPrancha02} className="imgcat" />
-                    <img src={ImagemPrancha03} className="imgcat" /> */}
                 </div>
                 <Colaboradores />
                 <Footer />
+            </div>
+
+            <div className="whatsapp">
+                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <img src={ImgWpp} />
+                </a>
             </div>
         </div>
     )

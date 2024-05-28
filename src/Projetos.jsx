@@ -6,6 +6,7 @@ import ImgAbc from './img/abc.png'
 import ImgBerimbalando from './img/berimbalando.png'
 import ImgJiujistu from './img/jiujistu.png'
 import ImgAulaDeSurf from './img/aulaDeSurf.png'
+import ImgWpp from './img/wpp.png';
 
 function Projetos() {
     return (
@@ -48,7 +49,9 @@ function Projetos() {
                             </p>
                         </div>
                         <div>
+                        <p className="alinharEsquerda" style={{paddingBottom:'2rem'}}>
                             <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+projetos+ofertados+pela+institui%C3%A7%C3%A3o." target="_blank"><button className="botaoPix">Me inscrever em um projeto</button></a>
+                        </p>
                         </div>
 
                     </div>
@@ -57,6 +60,11 @@ function Projetos() {
             </div>
             <Colaboradores />
             <Footer />
+            <div className="whatsapp">
+                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <img src={ImgWpp} />
+                </a>
+            </div>
         </div>
     )
 }

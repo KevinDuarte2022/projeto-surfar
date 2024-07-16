@@ -34,10 +34,10 @@ function SejaVoluntario() {
 
                             <h4 className="tituloPix02">Outra forma</h4>
                             <p className="textoDoar02">
-                                Tem outra forma que você possa ajudar a gente? Seu talento vai ser muito bem vindo nesse projeto que tranforma vidas.
+                                Tem outra forma que você possa ajudar a gente? Seu talento vai ser muito bem vindo nesse projeto que tranforma vidas. Preencha um formulário clicando no botão abaixo para se tornar um voluntário.
                             </p>
                             <p className="alinharEsquerda" style={{paddingBottom:'2rem'}}>
-                            <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+me+tornar+um+volunt%C3%A1rio+na+ONG+Projeto+Surfar."><button className="botaoPix">Se tornar voluntário</button></a>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSewEQozwLait375ht9TcUEYPOMZDIwZYeJ26PWZVlAVzkfTVg/viewform"><button className="botaoPix">Se tornar voluntário</button></a>
                             </p>
                         </div>
                         <Colaboradores/>
@@ -47,7 +47,7 @@ function SejaVoluntario() {
                 </div>
             </div>
             <div className="whatsapp">
-                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <a target="_blank" href="https://wa.me/5551994962262?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
                 <img src={ImgWpp} />
                 </a>
             </div>

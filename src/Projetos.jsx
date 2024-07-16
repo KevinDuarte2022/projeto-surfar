@@ -24,33 +24,33 @@ function Projetos() {
                         <div className="container">
 
                             <img src={ImgAbc} className="imgcat" />
-                            <p className="paragrafoCursos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptate dolore pariatur nihil ea reprehenderit suscipit magnam incidunt fuga rerum! Quis totam, et distinctio vero facere ut dolor corrupti quidem?
+                            <p className="paragrafoCursos">Consiste em atividades de alfabetização e reforço escolar para crianças e adolescentes matriculados e cursando o ensino fundamentas na rede pública.
                             </p>
                         </div>
                         <h6 className="curso01">Berimbalando sonhos</h6>
                         <div className="container">
 
                             <img src={ImgBerimbalando} className="imgcat" />
-                            <p className="paragrafoCursos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore laborum impedit rem! Omnis accusamus hic incidunt, cupiditate tenetur, maiores officiis voluptatem nemo ad sunt aliquam suscipit magni quo nobis.
+                            <p className="paragrafoCursos">A Capoeira é o que você quiser que ela seja, pode ser luta, ou dança, cultura ou esporte, lazer ou profissão. É o alinhamento do corpo com a mente, preparando o indivíduo para o que a vida apresentar. Na Capoeira, são explorados todos os sentidos e diversas potencialidades do praticante como a musicalidade, ritmos, destreza corporal, o cuidado com sigo e com o outro, o sentimento de grupo e pertencimento, o respeito, o coleguismo, resumindo, é uma excelente ferramenta para a construção de um ser humano melhor.
                             </p>
                         </div>
                         <h6 className="curso01">JiuJitsu</h6>
                         <div className="container">
 
                             <img src={ImgJiujistu} className="imgcat" />
-                            <p className="paragrafoCursos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore laborum impedit rem! Omnis accusamus hic incidunt, cupiditate tenetur, maiores officiis voluptatem nemo ad sunt aliquam suscipit magni quo nobis.
+                            <p className="paragrafoCursos">O Jiu-Jitsu traz a disciplina, o auto conhecimento e o auto controle, faz você mergulhar no seu interior e colocar para o mundo quem você realmente é. Quando se sobe no tatame a mente se concentra, a atenção é trabalhada e a auto estima se eleva e você entende que deve ser sempre fluido, estar sempre em movimento, não se deixar levar pelas facilidades da vida e posicionar-se em todas as situações.
                             </p>
                         </div>
                         <h6 className="curso01">Projeto Surfar</h6>
                         <div className="container">
 
                             <img src={ImgAulaDeSurf} className="imgcat" />
-                            <p className="paragrafoCursos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore laborum impedit rem! Omnis accusamus hic incidunt, cupiditate tenetur, maiores officiis voluptatem nemo ad sunt aliquam suscipit magni quo nobis.
+                            <p className="paragrafoCursos">O Surf é um caminho a trilhar, é a liberdade, a felicidade, é a natureza e você, é a expressão da sua alma, é a alma da instituição. Este é um projeto fora da curva, bem longe do lugar comum, que tem como objetivo apresentar novos horizontes e possibilidades para quem assim quiser experimentar e fazer parte de uma experiência única. Se você souber aproveitar os momentos e ter sabedoria para avaliar as circunstâncias, o surf será a ponte que fará a conexão pura entre você e as energias do universo que conspiram para que sejamos pessoas completas, realizadas e felizes.
                             </p>
                         </div>
                         <div>
                         <p className="alinharEsquerda" style={{paddingBottom:'2rem'}}>
-                            <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+projetos+ofertados+pela+institui%C3%A7%C3%A3o." target="_blank"><button className="botaoPix">Me inscrever em um projeto</button></a>
+                            <a href="https://wa.me/5551994962262?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+projetos+ofertados+pela+institui%C3%A7%C3%A3o." target="_blank"><button className="botaoPix">Me inscrever em um projeto</button></a>
                         </p>
                         </div>
 
@@ -61,7 +61,7 @@ function Projetos() {
             <Colaboradores />
             <Footer />
             <div className="whatsapp">
-                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <a target="_blank" href="https://wa.me/5551994962262?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
                 <img src={ImgWpp} />
                 </a>
             </div>

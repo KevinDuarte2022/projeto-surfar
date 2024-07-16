@@ -588,8 +588,30 @@ body {
   } */
 
 .imgcat2 {
-    width: 100%;
-    /* Porcentagem ou valor específico para ajustar o tamanho */
-    height: auto;
-    /* Para manter a proporção */
+    
+    width: 70%; /* Define a largura das imagens como 90% */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px 0; /* Adiciona uma margem vertical para separar as imagens */
+    border-radius: 20px; /* Arredonda as bordas das imagens */
+}
+
+.row + .row {
+    margin-top: 20px; /* Define o espaçamento entre as fileiras */
+}
+
+/* Estiliza as legendas */
+figure {
+    margin: 0; /* Remove a margem padrão do elemento figure */
+    text-align: center; /* Centraliza o texto dentro do figure */
+}
+
+figcaption {
+    margin-top: 10px; /* Adiciona um espaçamento entre a imagem e a legenda */
+    font-size: 18px; /* Define o tamanho da fonte da legenda */
+    color: black; 
+}
+
+.button-container-pranchas {
+    display: flex;
+    justify-content: center;
 }

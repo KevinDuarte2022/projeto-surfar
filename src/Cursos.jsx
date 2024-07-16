@@ -55,7 +55,9 @@ function Cursos() {
                     <h6 className="curso01">Morro é tudo de bom</h6>
                     <div className="container">
                         <img src={ImgCurso13} className="imgcat" />
-                        <p className="paragrafoCursos">Morro é tudo de bom é um curso que a instituição Projeto Surfar oferece aos alunos que estão interessados a aprender instrumentos de percussão como tambores, atabaque e entre outros utilizados na capoeira e em outros estilos de música</p>
+                        <p className="paragrafoCursos">O projeto é um grande espaço aberto para debates, oficinas e mostras sobre as diversas vertentes de arte e cultura, oportunizando a fruição, estimulando um intenso diálogo de forma horizontal e transversal, divulgando, registrando e documentando as atividades artísticas e culturais em um espaço qualificado.
+                        Capoeira,maculelé,puxada de rede,samba de roda, jiu jitsu,skate surf grafite desenho livre pintura em telas contação de histórias leitura,hip hop.
+                        dança de rua.teatro,artesanato.identidade,corte de cabelo, franças,ritmos e danças afro, corte e costura, comidas típicas e todas as demais formas de manifestações artisticas e culturais que possam compor este projeto.</p>
                     </div>
                     <h6 className="curso01">Curso de TI</h6>
                     <div className="container">
@@ -76,16 +78,16 @@ function Cursos() {
                     </div>
                 </div>
                 <div>
-                    <p className="alinharEsquerda" style={{paddingBottom:'2rem'}}>
-                        <a href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+cursos+ofertados+pela+institui%C3%A7%C3%A3o.+" target="_blank"><button className="botaoPix">Me inscrever em um curso</button></a>
+                    <p className="alinharEsquerda" style={{ paddingBottom: '2rem' }}>
+                        <a href="https://wa.me/5551994962262?text=Ol%C3%A1%2C+quero+me+inscrever+em+um+dos+cursos+ofertados+pela+institui%C3%A7%C3%A3o.+" target="_blank"><button className="botaoPix">Me inscrever em um curso</button></a>
                     </p>
                 </div>
             </div>
             <Colaboradores />
             <Footer />
             <div className="whatsapp">
-                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
-                <img src={ImgWpp}/>
+                <a target="_blank" href="https://wa.me/5551994962262?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                    <img src={ImgWpp} />
                 </a>
             </div>
         </div>

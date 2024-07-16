@@ -21,7 +21,7 @@ function NavBarComponent() {
             <Link to="/cursos-ofertados">CURSOS OFERTADOS</Link>
             <Link to="/projetos">PROJETOS</Link>
             <Link to="/fabricacao-de-pranchas">FABRICAÇÃO DE PRANCHAS</Link>
-            <Link target='_blank' to="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+">FALE CONOSCO</Link>
+            <Link target='_blank' to="https://wa.me/5551994962262?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+">FALE CONOSCO</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

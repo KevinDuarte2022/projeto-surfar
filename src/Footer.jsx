@@ -31,7 +31,7 @@ function Footer() {
                         <div className="col-md-3 col-sm-6">
                             <h4>Contato</h4>
                             <ul className="list-unstyled">
-                                <li><a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+" className="linkh4">Tel: 51-98401 7604</a></li>
+                                <li><a target="_blank" href="https://wa.me/5551994962262?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+" className="linkh4">Tel: +55 51-994962262</a></li>
                                 <li><a target="_blank" href="https://www.google.com/intl/pt-BR/gmail/about/" className="linkh4">email: ongsurfar@hotmail.com</a></li>
                                 <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100064879410278&name=xhp_nt__fb__action__open_user" className="linkh4">facebook: associação Projeto Surfar</a></li>
                                 <li><a target="_blank" href="https://www.instagram.com/projetosurfar?igsh=MXU2aXpramVmdnE5Zw==" className="linkh4">Instagram: @projetosurfar</a></li>

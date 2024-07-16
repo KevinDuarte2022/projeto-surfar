@@ -113,7 +113,7 @@ function QuemSomos() {
             <Colaboradores />
             <Footer />
             <div className="whatsapp">
-                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <a target="_blank" href="https://wa.me/5551994962262?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
                 <img src={ImgWpp} width={'85px'} />
                 </a>
             </div>

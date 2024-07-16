@@ -97,7 +97,7 @@ function Home() {
             <h3 className="tituloPixHome">Vem surfar com a gente</h3>
             <p className="textoDoarHome" style={{ width: '80%', margin: 'auto' }}>
               Agradecemos e aproveitamos para convidá-lo a vir surfar com a gente e fazer a diferneça! "Se mais pessoas surfarem e estiverem conectadas com esses valores, o mundo será um lugar melhor"
-              CONTATO: Associação Projeto Surfar -PoA/RS F: 51- 3384 9728 /51-98401 7604
+              CONTATO: Associação Projeto Surfar -PoA/RS F: 51- 3384 9728 /51- 994962262
               email: ongsurfar@hotmail.com
               facebook: associação Projeto Surfar
               Instagran: @projetosurfar
@@ -113,7 +113,7 @@ function Home() {
       <Colaboradores />
       <Footer />
       <div className="whatsapp">
-        <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+        <a target="_blank" href="https://wa.me/5551994962262?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
           <img src={ImgWpp} />
         </a>
       </div>

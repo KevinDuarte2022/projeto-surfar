@@ -36,14 +36,14 @@ function DoeAqui() {
                             </p>
                             <h4 className="tituloPix02">Fazer um pix</h4>
                             <p className="alinharEsquerda">
-                                <button className="botaoPix">Copiar chave pix</button>
+                            <button onClick={() => { copiarChavePix() }} className="botaoPix">{textoPix}</button>
                             </p>
                             <h4 className="tituloPix02">Doar brinquedos</h4>
                             <p className="textoDoar02">
                                 Você pode doar um brinquedo e fazer uma criança feliz.
                             </p>
                             <p className="alinharEsquerda">
-                                <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+doar+brinquedos+para+ONG%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Fale conosco para doar</button></a>
+                                <a target="_blank" href="https://wa.me/5551994962262?text=Ol%C3%A1%2C+gostaria+de+doar+brinquedos+para+ONG%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Fale conosco para doar</button></a>
                             </p>
 
                             <h4 className="tituloPix02">Doar vestimentas</h4>
@@ -51,7 +51,7 @@ function DoeAqui() {
                                 Você pode doar cobertores, agasalhos ou calçados para ajudar uma criança ou uma família.
                             </p>
                             <p className="alinharEsquerda">
-                                <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+doar+vestimentas+para+ONG%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Fale conosco para doar</button></a>
+                                <a target="_blank" href="https://wa.me/5551994962262?text=Ol%C3%A1%2C+gostaria+de+doar+vestimentas+para+ONG%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Fale conosco para doar</button></a>
                             </p>
 
                             <h4 className="tituloPix02">Apadrinhamento</h4>
@@ -59,7 +59,7 @@ function DoeAqui() {
                                 O apadrinhamento acontece na forma de colaboração mensal com depósitos recorrentes na conta da instituição.
                             </p>
                             <p className="alinharEsquerda">
-                                <a target="_blank" href="https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+ser+um+apadrinhador%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Ser um apadrinhador</button></a>
+                                <a target="_blank" href="https://wa.me/5551994962262?text=Ol%C3%A1%2C+gostaria+de+ser+um+apadrinhador%2C+como+fa%C3%A7o%3F"><button className="botaoPix">Ser um apadrinhador</button></a>
                             </p>
                         </div>
                         <div className="col-md-3">
@@ -111,7 +111,7 @@ function DoeAqui() {
             <Footer />
 
             <div className="whatsapp">
-                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+                <a target="_blank" href="https://wa.me/5551994962262?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
                 <img src={ImgWpp} />
                 </a>
             </div>

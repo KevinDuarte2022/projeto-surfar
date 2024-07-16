@@ -86,6 +86,11 @@ body {
 
 }
 
+.videoContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .QuemSomosHome {
     background-color: white;
     font-size: 20px;
@@ -317,7 +322,7 @@ body {
 }
 
 .botaoPix {
- 
+
     margin-top: 0.5rem;
     display: inline-block;
     text-align: center;
@@ -494,7 +499,7 @@ body {
 }
 
 .logosColaboradores {
-   padding:  0px 25px 25px 0;
+    padding: 0px 25px 25px 0;
 }
 
 .col-md-3 img {
@@ -502,51 +507,89 @@ body {
     height: auto;
     display: block;
 }
+
 /* cursos */
 
 .curso01 {
     font-size: 26px;
-    
+
     margin-top: 1rem;
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-.paragrafoCursos{
+.paragrafoCursos {
     font-size: 23px;
     text-align: center;
     margin-right: 50px;
 }
 
-.alinharEsquerda{
+.alinharEsquerda {
     padding-left: 5rem;
 
 }
 
 /* botaozap */
 
-.whatsapp{
+.whatsapp {
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 9999;
-     
-}
-.whatsapp img{
-   width: 85px;  
-   transition: 0.4s ease;
+
 }
 
-.whatsapp img:hover{
-   width: 95px;
-   transition: 0.4s ease;
+.whatsapp img {
+    width: 85px;
+    transition: 0.4s ease;
 }
 
+.whatsapp img:hover {
+    width: 95px;
+    transition: 0.4s ease;
+}
 
-    
+/* .Modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .Overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .fecharModal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .imgFullScreen {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  } */
 
-
+.imgcat2 {
+    width: 100%;
+    /* Porcentagem ou valor específico para ajustar o tamanho */
+    height: auto;
+    /* Para manter a proporção */
+}

@@ -10,22 +10,37 @@ import Colaboradores from "./colaboradores";
 import ImagemP1 from './img/Design sem nome (9).png';
 import ImagemPraia from './img/criancas-praia.jpeg';
 import ImgWpp from './img/wpp.png';
+import VideoTheo from './videos/Por favor ajudem!.mp4'
 
 
 
 function Home() {
- 
-  const [textoPix, setTextoPix] = useState ('Copiar chave pix');
+
+  const [textoPix, setTextoPix] = useState('Copiar chave pix');
   const copiarChavePix = () => {
     navigator.clipboard.writeText('09097983000109')
-    setTextoPix ('Chave pix copiada')
-  
+    setTextoPix('Chave pix copiada')
+
   }
+
+
 
   return (
     <div>
       <NavBarComponent />
       <Carrossel />
+
+      <div className="QuemSomosHome" style={{ marginTop: '4rem', backgroundColor: 'black' }}>
+        <h3 className="tituloParagrafo01" style={{color: 'white'}}>Por favor, ajudem!</h3>
+
+        {/* video do Theo */}
+        <div className="videoContainer">
+          <video width="600" controls>
+            <source src={VideoTheo} type="video/mp4" />
+            Seu navegador não suporta a tag de vídeo.
+          </video>
+        </div>
+      </div>
 
       <div className="QuemSomosHome" style={{ marginTop: '4rem' }}>
 
@@ -53,25 +68,25 @@ function Home() {
             É simples. Para ajudar o Projeto Surfar, as crianças, os adolescentes e idosos beneficiados pela instituição, você pode:
           </p>
           <p className="textoDoarHome">
-          <button onClick={()=>{copiarChavePix()}}  className="botaoPix">{textoPix}</button>
+            <button onClick={() => { copiarChavePix() }} className="botaoPix">{textoPix}</button>
           </p>
           <h3 className="tituloPixHome">O que mais posso doar?</h3>
           <p className="textoDoarHome">
             Você também pode ajudar de outras formas.
           </p>
           <p className="textoDoarHome">
-          <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
+            <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
           </p>
         </div>
 
         <div className="doarHome" style={{ marginTop: '4rem' }}>
           <div className="divMeio">
             <h3 className="tituloPixHome">Seja um voluntário nessa causa</h3>
-            <p className="textoDoarHome" style={{ width: '60%', margin: 'auto', marginBottom: '16px'  }}>
+            <p className="textoDoarHome" style={{ width: '60%', margin: 'auto', marginBottom: '16px' }}>
               O Projeto Surfar trabalha com voluntários. Talvez você tenha algum talento, habilidade ou formação que possa ser útil para ajudar a tranformar a vida de muitas famílias.
             </p>
             <p className="textoDoarHome">
-            <Link to='/seja-voluntario'><button className="botaoPix">Saber mais</button></Link>
+              <Link to='/seja-voluntario'><button className="botaoPix">Saber mais</button></Link>
             </p>
           </div>
 
@@ -93,15 +108,15 @@ function Home() {
           </div>
 
         </div>
-        
+
       </div>
       <Colaboradores />
       <Footer />
       <div className="whatsapp">
-                <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
-                <img src={ImgWpp}/>
-                </a>
-            </div>
+        <a target="_blank" href="https://wa.me/555184017604?text=Olá, gostaria de saber mais sobre a ONG Projeto Surfar.">
+          <img src={ImgWpp} />
+        </a>
+      </div>
     </div>
   )
 };

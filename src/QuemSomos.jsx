@@ -37,7 +37,7 @@ function QuemSomos() {
                     Uma Instituição sem fins lucrativos, inicialmente voltada para jovens de periferia em vulnerabilidade social.
                     MISSÃO: Fazer com que as pessoas em vulnerabilidade social melhorem a sua qualidade de vida e alcancem o desenvolvimento sócio econômico.  VISÃO: Ser referência na inclusão social de pessoas em vulnerabilidade, ofertando projetos de educação, esporte, cultura, lazer e profissionalizantes.
                     VALORES: Valorização das pessoas; Comprometimento com a causa social; Qualidade nos resultados.
-                    Em 2006 o início tiveram 80 pessoas beneficiadas, 04 voluntários, 05 apoiadores, oficinas de alfabetização, reforço escolar e capoeira.
+                    Em 2006 no início tiveram 80 pessoas beneficiadas, 04 voluntários, 05 apoiadores, oficinas de alfabetização, reforço escolar e capoeira.
                     <img src={ImagemP2} className="imgQuemSomosP" />
                 </p>
 

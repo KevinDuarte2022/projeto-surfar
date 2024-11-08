@@ -28,8 +28,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </Router>,
 )
 
-// export default function Main(){
-//   return(
-//     <Routes/>
-//   );
-// }

@@ -29,8 +29,5 @@ function NavBarComponent() {
   );
 }
 
-// Link do wpp da ong
-// https://wa.me/5551984017604?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+
-
 
 export default NavBarComponent;

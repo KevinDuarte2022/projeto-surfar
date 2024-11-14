@@ -64,7 +64,7 @@ function QuemSomos() {
 
 
                 <h3 className="tituloParagrafo">Cursos profissionalizantes</h3>
-                <p className="paragrafoQuemSomos02" style={{textAlign:'center'}}>
+                <p className="paragrafoQuemSomos03">
 
 
                     Para os jovens e os responsáveis dos beneficiados, são oferecidos cursos visando a inclusão no mercado de trabalho.

@@ -23,29 +23,27 @@ function Home() {
 
   }
 
-
+  // src\img\capa-video-theo.jpeg
 
   return (
     <div>
       <NavBarComponent />
       <Carrossel />
 
-      <div className="QuemSomosHome" style={{ marginTop: '4rem', backgroundColor: 'black' }}>
-        <h3 className="tituloParagrafo01" style={{color: 'white'}}>Por favor, ajudem!</h3>
+      <div className="paragrafoQuemSomos">
+        <h3 className="tituloParagrafo01">Por favor, ajudem!</h3>
 
-        {/* video do Theo */}
-        <div className="videoContainer">
-  <video controls>
-    <source src={VideoTheo} type="video/mp4" />
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
-      </div>
-
-      <div className="QuemSomosHome">
+        <div>
+          <div className="videoContainer">
+            <video controls >
+              <source src={VideoTheo} type="video/mp4" />
+              Seu navegador não suporta a tag de vídeo.
+            </video>
+          </div>
+        </div>
 
         <h3 className="tituloParagrafo01">Quem somos?</h3>
-        <p>
+        <p className="paragrafoQuemSomos02">
 
           Após sofrerem assalto por dois adolescentes no ano de 2000, o casal de empresários Gicele Melo e Gustavo Rocha tiveram suas vidas transformadas. Um episódio que poderia ter deixado eles com medo e raiva, mas ao contrário, gerou vontade de ajudar e a partir daí, surgiu o Projeto Surfar.  Uma Instituição sem fins lucrativos, inicialmente voltada para jovens de periferia em vulnerabilidade social. <br></br>
           MISSÃO: Fazer com que as pessoas em vulnerabilidade social melhorem a sua qualidade de vida e alcancem o desenvolvimento sócio econômico. VISÃO: Ser referência na inclusão social de pessoas em vulnerabilidade, ofertando projetos de educação, esporte, cultura, lazer e profissionalizantes.
@@ -57,57 +55,51 @@ function Home() {
 
       </div>
 
-      <div>
+      <div className="paragrafoQuemSomos">
+        <h3 className="tituloParagrafo01">Ajude a mudar o mundo com um pequeno gesto</h3>
+        <p className="paragrafoQuemSomos03">Sua doação vai ajudar a transformar muitas vidas através do Projeto Surfar</p>
 
-        <h3 className="tituloh3">Ajude a mudar o mundo com um pequeno gesto</h3>
-        <h4 className="subtitulo" style={{ marginBottom: '3rem' }}>Sua doação vai ajudar a transformar muitas vidas através do Projeto Surfar</h4>
 
-        <div className="QuemSomosHome">
-          <h3 className="tituloParagrafo01">Vem fazer parte dessa família</h3>
-          <p >
-            É simples. Para ajudar o Projeto Surfar, as crianças, os adolescentes e idosos beneficiados pela instituição, você pode:
-          </p>
-          <p className="textoDoarHome">
-            <button onClick={() => { copiarChavePix() }} className="botaoPix">{textoPix}</button>
-          </p>
-          <h3 className="tituloPtituloParagrafo01ixHome">O que mais posso doar?</h3>
-          <p>
-            Você também pode ajudar de outras formas.
-          </p>
-          <p className="textoDoarHome">
-            <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
-          </p>
-        </div>
+        <h3 className="tituloParagrafo01">Vem fazer parte dessa família</h3>
+        <p className="paragrafoQuemSomos03">
+          É simples. Para ajudar o Projeto Surfar, as crianças, os adolescentes e idosos beneficiados pela instituição, você pode:
+        </p>
+        <p className="textoDoarHome">
+          <button onClick={() => { copiarChavePix() }} className="botaoPix">{textoPix}</button>
+        </p>
+        <h3 className="tituloParagrafo">O que mais posso doar?</h3>
+        <p className="paragrafoQuemSomos03">
+          Você também pode ajudar de outras formas.
+        </p>
+        <p className="textoDoarHome">
+          <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
+        </p>
 
-        
-            
-        
 
-        <div className="QuemSomosHome" style={{ marginTop: '4rem' }}>
-         
         <h3 className="tituloParagrafo01">Seja um voluntário nessa causa</h3>
-            <p >
-              O Projeto Surfar trabalha com voluntários. Talvez você tenha algum talento, habilidade ou formação que possa ser útil para ajudar a tranformar a vida de muitas famílias.
-            </p>
-            <p className="textoDoarHome">
-              <Link to='/seja-voluntario'><button className="botaoPix">Saber mais</button></Link>
-            </p>
-
-            <h3 className="tituloParagrafo01">Vem surfar com a gente</h3>
-            <p>
-              Agradecemos e aproveitamos para convidá-lo a vir surfar com a gente e fazer a diferneça! "Se mais pessoas surfarem e estiverem conectadas com esses valores, o mundo será um lugar melhor"
-              CONTATO: Associação Projeto Surfar -PoA/RS F: 51- 3384 9728 /51- 994962262
-              email: ongsurfar@hotmail.com
-              facebook: associação Projeto Surfar
-              Instagran: @projetosurfar
-            </p>
-            <div >
-              <img src={ImagemPraia} className="imgQuemSomosP" />
-            </div>
-
-        </div>
-
+        <p className="paragrafoQuemSomos03">
+          O Projeto Surfar trabalha com voluntários. Talvez você tenha algum talento, habilidade ou formação que possa ser útil para ajudar a tranformar a vida de muitas famílias.
+        </p>
+        <p className="textoDoarHome">
+          <Link to='/seja-voluntario'><button className="botaoPix">Saber mais</button></Link>
+        </p>
       </div>
+
+      <div className="paragrafoQuemSomos">
+        <h3 className="tituloParagrafo01">Vem surfar com a gente</h3>
+        <p className="paragrafoQuemSomos02">
+          Agradecemos e aproveitamos para convidá-lo a vir surfar com a gente e fazer a diferneça! "Se mais pessoas surfarem e estiverem conectadas com esses valores, o mundo será um lugar melhor"
+          CONTATO: Associação Projeto Surfar -PoA/RS F: 51- 3384 9728 /51- 994962262
+          email: ongsurfar@hotmail.com
+          facebook: associação Projeto Surfar
+          Instagran: @projetosurfar
+        </p>
+        <div >
+          <img src={ImagemPraia} className="imgQuemSomosP" />
+        </div>
+      </div>
+
+
       <Colaboradores />
       <Footer />
       <div className="whatsapp">
@@ -115,7 +107,10 @@ function Home() {
           <img src={ImgWpp} />
         </a>
       </div>
+
+
     </div>
+
   )
 };
 

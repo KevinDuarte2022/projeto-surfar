@@ -1,15 +1,32 @@
+import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import ImagemLogo from './img/logo.png';
 
-
-
 function NavBarComponent() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <Navbar expand="lg" className="menu">
-      <img src={ImagemLogo} className='imglogo' />
+    <Navbar expand="lg" className={`menu ${scrolled ? 'transparent' : ''}`}>
+      <img src={ImagemLogo} className="imglogo" alt="Logo" />
       <Container className="mx-auto">
         <Link to="/">HOME</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,6 +45,5 @@ function NavBarComponent() {
     </Navbar>
   );
 }
-
 
 export default NavBarComponent;

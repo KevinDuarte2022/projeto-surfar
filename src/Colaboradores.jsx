@@ -15,33 +15,33 @@ function Colaboradores() {
                 <h2 className="tituloh3">Painel de colaboradores</h2>
                 <div className="container">
                     <div className="row">
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo06}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo06} />
                         </div>
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo02}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo02} />
                         </div>
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo03}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo03} />
                         </div>
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo04}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo04} />
                         </div>
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo05}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo05} />
                         </div>
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo01}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo01} />
                         </div>
-                        <div className="logosColaboradores col-md-3 col-sm-3" >
-                            <img src={ImgLogo07}/>
+                        <div className="logosColaboradores col-md-3 col-6 col-sm-4">
+                            <img src={ImgLogo07} />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     )
-
 }
+
 
 export default Colaboradores;

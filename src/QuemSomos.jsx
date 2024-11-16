@@ -1,6 +1,6 @@
 import NavBarComponent from "./NavBar";
 import Footer from "./Footer"
-import Colaboradores from "./colaboradores";
+import Colaboradores from "./Colaboradores";
 import ImagemQuemSomos from './img/Quem somos nós.png';
 import ImagemP1 from './img/Design sem nome (9).png';
 import ImagemP2 from './img/Design sem nome (6).png';

@@ -6,7 +6,7 @@ import Carrossel from "./Carrossel"
 import { Container } from "bootstrap-4-react/lib/components/layout";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer"
-import Colaboradores from "./colaboradores";
+import Colaboradores from "./Colaboradores";
 import ImagemP1 from './img/Design sem nome (9).png';
 import ImagemPraia from './img/criancas-praia.jpeg';
 import ImgWpp from './img/wpp.png';
@@ -23,7 +23,6 @@ function Home() {
 
   }
 
-  // src\img\capa-video-theo.jpeg
 
   return (
     <div>
@@ -64,14 +63,14 @@ function Home() {
         <p className="paragrafoQuemSomos03">
           É simples. Para ajudar o Projeto Surfar, as crianças, os adolescentes e idosos beneficiados pela instituição, você pode:
         </p>
-        <p className="textoDoarHome">
+        <p className="paragrafoQuemSomos04">
           <button onClick={() => { copiarChavePix() }} className="botaoPix">{textoPix}</button>
         </p>
         <h3 className="tituloParagrafo">O que mais posso doar?</h3>
         <p className="paragrafoQuemSomos03">
           Você também pode ajudar de outras formas.
         </p>
-        <p className="textoDoarHome">
+        <p className="paragrafoQuemSomos04">
           <Link to='/doe-aqui'><button className="botaoPix">Saber mais</button></Link>
         </p>
 
@@ -80,7 +79,7 @@ function Home() {
         <p className="paragrafoQuemSomos03">
           O Projeto Surfar trabalha com voluntários. Talvez você tenha algum talento, habilidade ou formação que possa ser útil para ajudar a tranformar a vida de muitas famílias.
         </p>
-        <p className="textoDoarHome">
+        <p className="paragrafoQuemSomos04">
           <Link to='/seja-voluntario'><button className="botaoPix">Saber mais</button></Link>
         </p>
       </div>

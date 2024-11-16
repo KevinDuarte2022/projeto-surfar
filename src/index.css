@@ -1,8 +1,38 @@
+/* Reset para remover margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
 body {
-    /* background-image: linear-gradient(to right,  whitesmoke, whitesmoke, whitesmoke , whitesmoke , whitesmoke , whitesmoke , whitesmoke, whitesmoke, whitesmoke, whitesmoke, whitesmoke , rgb(196, 196, 253),rgb(146, 146, 252) );
-     */
+    width: 100%;
+    overflow-x: hidden;
+    /* Evita rolagem lateral */
+}
+
+body {
     background-color: whitesmoke;
 }
+
+/* Ajuste para largura mínima */
+.container-principal {
+    width: 100vw;
+    overflow-x: hidden;
+    /* Remove possíveis rolagens laterais */
+}
+
+@media only screen and (max-width: 450px) {
+
+    .QuemSomosHome,
+    .paragrafoQuemSomos,
+    .doarHome,
+    .textoDoarHome {
+        width: 100%;
+    }
+}
+
 
 /* Home */
 .titulo {
@@ -18,6 +48,7 @@ body {
     width: 1200px;
 
 }
+
 /* Navbar fixo com efeito de vidro */
 /* Navbar fixo com efeito de transição */
 .menu {
@@ -28,27 +59,46 @@ body {
     z-index: 1000;
     height: 11vh;
     align-items: center;
-    justify-content: space-between; /* Logo à esquerda, menu hamburguer à direita */
-    background-color: rgb(14, 18, 96); /* Cor sólida inicialmente */
+    justify-content: space-between;
+    /* Logo à esquerda, menu hamburguer à direita */
+    background-color: rgb(14, 18, 96);
+    /* Cor sólida inicialmente */
     font-size: 17px;
     text-align: center;
     display: flex;
-    padding: 0 2rem; /* Ajusta o espaçamento */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 0 2rem;
+    /* Ajusta o espaçamento */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Quando rolar para baixo, o fundo do navbar se torna transparente */
 .menu.transparent {
-    background-color: rgba(14, 18, 96, 0.5); /* Transparente quando rola */
-    backdrop-filter: blur(10px); /* Efeito de vidro */
+    background-color: rgba(14, 18, 96, 0.5);
+    /* Transparente quando rola */
+    backdrop-filter: blur(10px);
+    /* Efeito de vidro */
 }
 
 /* Logo */
 .imglogo {
-    width: 80px; /* Ajusta a logo para não ultrapassar a barra */
+    width: 80px;
+    /* Ajusta a logo para não ultrapassar a barra */
     object-fit: contain;
 }
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente logo e texto */
+    gap: 0.5rem; /* Espaçamento entre a logo e o texto */
+  }
+  
+  .project-name {
+    font-size: 1.2rem; /* Ajuste o tamanho da fonte do texto */
+    font-weight: bold; /* Deixe o texto em negrito */
+    color: white; /* Cor do texto para combinar com o tema do navbar */
+  }
 
 /* Links do menu */
 .menu a {
@@ -77,87 +127,119 @@ body {
     transition: 0.4s ease;
 }
 
-/* Menu hamburguer e ajuste no layout */
+/* Estilos para o botão hambúrguer */
 .navbar-toggler {
+    margin-top: -50px;
+    /* Ajuste o valor para posicionar o botão mais para cima */
+    margin-left: 325px;
     border: none;
+    /* Remove a borda ao redor do botão */
 }
 
 .navbar-toggler-icon {
-    background-color: #fff; /* Cor dos três tracinhos */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-color: rgb(14, 18, 96, 0.9);
+    /* Cor de fundo do menu */
+    margin-top: 5px;
+    /* Ajusta o espaço entre os tracinhos */
 }
 
 .navbar-nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Links alinhados à direita */
+    justify-content: flex-end;
+    /* Links alinhados à direita */
 }
 
 .navbar-nav .nav-link {
-    margin-left: 1rem; /* Espaçamento entre os links */
-    color: white; /* Cor dos links */
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Estilo dos links */
+    margin-left: 1rem;
+    /* Espaçamento entre os links */
+    color: rgb(0, 0, 0);
+    /* Cor dos links */
+    text-decoration: none;
+    /* Remover sublinhado */
+    font-weight: bold;
+    /* Estilo dos links */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f8f9fa; /* Cor ao passar o mouse */
+    color: #f8f9fa;
+    /* Cor ao passar o mouse */
 }
 
 /* Ajuste no layout para mobile */
 @media (max-width: 768px) {
     .menu {
-        height: 8vh; /* Menor altura para mobile */
-        padding: 0.5rem; /* Ajustar o padding */
+        height: 8vh;
+        /* Menor altura para mobile */
+        padding: 0.5rem;
+        /* Ajustar o padding */
     }
 
     .imglogo {
-        width: 80px; /* Tamanho da logo menor no mobile */
+        width: 40px;
+        /* Tamanho da logo menor no mobile */
     }
 
     .navbar-nav {
-        flex-direction: column; /* Menu em coluna no mobile */
+        flex-direction: column;
+        /* Menu em coluna no mobile */
         align-items: flex-start;
     }
 
     .navbar-nav .nav-link {
-        margin: 0.5rem 0; /* Ajuste de espaçamento entre links */
+        margin: 0.5rem 0;
+        /* Ajuste de espaçamento entre links */
     }
 
     .menu a {
-        font-size: 16px; /* Ajuste de fonte para mobile */
+        font-size: 16px;
+        /* Ajuste de fonte para mobile */
+        text-align: left;
     }
 
     /* Menu lateral no mobile */
     .navbar-collapse {
-        background-color: white; /* Fundo branco */
+        color: black;
+        background-color: rgb(14, 18, 96, 0.9);
         padding: 1rem;
-        width: 200px; /* Largura do menu lateral */
+        width: 200px;
+        /* Largura do menu lateral */
         position: absolute;
         right: 0;
         top: 0;
-        z-index: 1001; /* Garantir que o menu fique por cima de outros elementos */
-        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Sombra no menu */
+        z-index: 1001;
+        /* Garantir que o menu fique por cima de outros elementos */
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+        /* Sombra no menu */
+        border-radius: 10px;
     }
 
     .navbar-collapse .nav-link {
-        color: black; /* Cor dos links no menu lateral */
+        color: black;
+        /* Cor dos links no menu lateral */
     }
 
     .navbar-collapse .nav-link:hover {
-        color: #e83e75; /* Cor ao passar o mouse no menu lateral */
+        color: #e83e75;
+        /* Cor ao passar o mouse no menu lateral */
     }
 }
 
 /* Disposição dos links no desktop (garante que fiquem na mesma linha) */
 @media (min-width: 769px) {
     .navbar-nav {
-        flex-direction: row; /* Alinha os links na horizontal */
+        flex-direction: row;
+        /* Alinha os links na horizontal */
     }
 
     .navbar-nav .nav-link {
-        margin-left: 2rem; /* Espaçamento entre os links no desktop */
+        margin-left: 2rem;
+        /* Espaçamento entre os links no desktop */
     }
 }
+
+
 
 
 .redimensionar-imagem {
@@ -179,33 +261,35 @@ body {
     transition: 0.5s ease;
 
 }
+
 .videoContainer {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: black; /* Garante o fundo preto */
-  }
-  
-  .videoContainer video {
+    background-color: black;
+    /* Garante o fundo preto */
+}
+
+.videoContainer video {
     width: 100%;
     height: auto;
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .videoContainer video {
-      max-width: 60%;
+        max-width: 60%;
     }
-  }
-  
-  @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
     .videoContainer video {
-      max-width: 50%;
+        max-width: 50%;
     }
-  }
-  
+}
+
 
 .QuemSomosHome {
     background-color: white;
@@ -290,6 +374,7 @@ body {
     margin-bottom: 0;
     margin: 0 auto;
     width: 90%;
+    padding-bottom: 1rem;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 0.5%;
@@ -300,12 +385,19 @@ body {
     margin: auto;
 }
 
-.paragrafoQuemSomos03{
+.paragrafoQuemSomos03 {
+    font-size: 20px;
     width: 90%;
     margin: auto;
     text-align: center;
 }
 
+.paragrafoQuemSomos04 {
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
 /* @media only screen and (min-width: 768px) {
     .paragrafoQuemSomos02 {
         width: 90%;
@@ -321,6 +413,21 @@ body {
     margin-bottom: 50px;
     border-radius: 20px;
     width: 100%;
+}
+
+.imgQuemSomosP02 {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .imgQuemSomosP02 {
+        width: 30%;
+    }
 }
 
 .tituloParagrafo {
@@ -341,18 +448,66 @@ body {
 
 }
 
+/* Footer */
+
+/* Forçar largura total em dispositivos móveis */
+@media (max-width: 768px) {
+    .footer-middle .row {
+        display: block;
+        /* Empilhar as colunas no mobile */
+    }
+
+    .footer-middle .col-md-3 {
+        width: 100%;
+        /* Ocupa 100% da tela */
+        text-align: left;
+        /* Alinha os textos à esquerda */
+        padding: 0 1rem;
+        /* Remove paddings extras */
+        margin: 0;
+        /* Remove margens extras */
+    }
+
+    .footer-middle h4 {
+        margin-bottom: 1rem;
+        /* Espaço entre título e conteúdo */
+    }
+
+
+    .footer-middle ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-middle ul li {
+        word-wrap: break-word;
+        /* Quebra palavras longas */
+        padding-bottom: 0.5rem;
+        /* Espaço entre itens da lista */
+    }
+
+    .linkh4 {
+        text-align: left; /* Alinha links à esquerda */
+        color: rgb(192, 190, 190); /* Mantém o estilo de link */
+      }
+    
+      .linkh4:hover {
+        text-decoration: underline; /* Mantém o hover ativo */
+        color: rgb(232, 60, 117); /* Cor do hover */
+      }
+}
 
 .footer-middle {
     background-color: rgb(14, 18, 96);
     padding-top: 3rem;
     color: white;
-
-
+    text-align: center;
 }
 
 .footer-bottom {
     padding-top: 3rem;
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 .linkh4 {
@@ -372,6 +527,70 @@ body {
 
 .kevin:hover {
     text-decoration: underline;
+}
+.text-xs-center a{
+    text-align: center;
+}
+
+
+/* Ajuste do footer para mobile */
+@media only screen and (max-width: 450px) {
+    .footer-middle {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        .footer-middle .row {
+            display: block;
+            /* Exibe as colunas de forma empilhada */
+        }
+
+        .footer-middle .col-12 {
+            width: 100%;
+            /* Garante que cada coluna ocupe 100% da largura da tela em mobile */
+            margin-bottom: 2rem;
+            /* Adiciona um espaço entre as colunas */
+        }
+    }
+
+
+    @media (min-width: 769px) {
+        .footer-middle .row {
+            display: flex;
+            /* Exibe as colunas lado a lado em telas maiores */
+            justify-content: space-between;
+        }
+
+        .footer-middle .col-md-3 {
+            width: 23%;
+            /* A largura das colunas em desktop é de 23% */
+            margin-bottom: 0;
+            /* Remove a margem entre as colunas em telas maiores */
+        }
+    }
+
+    .linkh4,
+    .kevin {
+        font-size: 14px;
+        margin: 5px 0;
+        display: block;
+        /* Coloca os links em uma nova linha */
+        text-align: left;
+    }
+
+    .footer-middle h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -551,9 +770,10 @@ body {
 }
 
 .tituloPix02 {
+    padding-top: 1rem;
     font-size: 20px;
-    padding-left: 6rem;
     font-weight: bold;
+    text-align: center;
 
 }
 
@@ -699,6 +919,38 @@ body {
     transition: .3s ease-in-out;
 }
 
+/* Container flexível para as imagens */
+.sejaVoluntarioContainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha, se necessário */
+    justify-content: space-between; /* Espaçamento uniforme entre os itens */
+    gap: 1rem; /* Espaçamento entre os elementos */
+}
+
+/* Ajuste individual para cada imagem */
+.sejaUmVoluntarioBox01,
+.sejaUmVoluntarioBox02,
+.sejaUmVoluntarioBox03 {
+    flex: 1; /* Faz os itens ocuparem o mesmo espaço */
+    max-width: 30%; /* No PC, cada imagem ocupa até 30% do espaço */
+    min-width: 250px; /* Garante que as imagens não fiquem pequenas demais */
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .sejaUmVoluntarioBox01,
+    .sejaUmVoluntarioBox02,
+    .sejaUmVoluntarioBox03 {
+        max-width: 90%; /* No mobile, as imagens ocupam toda a largura */
+        margin: 0 auto; /* Garante que os itens fiquem centralizados */
+    }
+
+    .sejaVoluntarioContainer {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center; /* Centraliza horizontalmente os itens no contêiner */
+    }
+}
+
 
 .veja {
     text-align: center;
@@ -725,7 +977,8 @@ body {
     padding-bottom: 3rem;
 }
 
-/* Colaboradores */.colaboradores {
+/* Colaboradores */
+.colaboradores {
     background-color: white;
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -742,25 +995,29 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; /* Garante o alinhamento vertical centralizado */
+    align-items: center;
+    /* Garante o alinhamento vertical centralizado */
 }
 
 .logosColaboradores {
     padding: 0px 25px 25px 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Alinha as logos no eixo Y */
+    align-items: center;
+    /* Alinha as logos no eixo Y */
 }
 
 /* Para telas médias e grandes (PC) */
 .col-md-3 {
-    width: 25%; /* 4 logos por linha */
+    width: 25%;
+    /* 4 logos por linha */
 }
 
 /* Para telas pequenas, 3 logos por linha */
 @media (max-width: 768px) {
     .col-sm-4 {
-        width: 33.33%; /* 3 logos por linha */
+        width: 33.33%;
+        /* 3 logos por linha */
     }
 }
 
@@ -768,12 +1025,14 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: contain;  /* Garantir que a imagem se ajuste dentro do espaço sem distorção */
+    object-fit: contain;
+    /* Garantir que a imagem se ajuste dentro do espaço sem distorção */
 }
 
 @media (max-width: 576px) {
     .logosColaboradores {
-        padding: 0px 10px 15px 10px; /* Menos espaçamento nas telas menores */
+        padding: 0px 10px 15px 10px;
+        /* Menos espaçamento nas telas menores */
     }
 }
 

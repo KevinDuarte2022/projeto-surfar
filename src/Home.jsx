@@ -11,6 +11,7 @@ import ImagemP1 from './img/Design sem nome (9).png';
 import ImagemPraia from './img/criancas-praia.jpeg';
 import ImgWpp from './img/wpp.png';
 import VideoTheo from './videos/Por favor ajudem!.mp4'
+import ComponentePix from "./ComponentePix";
 
 
 

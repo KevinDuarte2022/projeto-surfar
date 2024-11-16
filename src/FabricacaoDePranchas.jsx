@@ -1,6 +1,6 @@
 import NavBarComponent from "./NavBar";
 import Footer from "./Footer";
-import Colaboradores from "./colaboradores";
+import Colaboradores from "./Colaboradores";
 import ImagemPranchaCapa from './img/prancha capa.png';
 import ImagemPrancha00 from './img/prancha00.png';
 import ImagemPrancha01 from './img/prancha01.jpeg';
@@ -30,128 +30,128 @@ function FabricacaoDePranchas() {
             <img src={ImagemPranchaCapa} className="imgCapas" />
             <div className="divMae">
 
-                <div style={{ marginBottom: '3rem' }}>
-                    <h3 className="tituloh3">Conheça um pouco do nosso trabalho</h3>
+                <div>
+                    <div className="paragrafoQuemSomos">
+                    <h3 className="tituloParagrafo01">Reforma e fabricação de pranchas</h3>
                     <div className="divMae">
-                </div>
-
-                <div className="QuemSomosHome" style={{ marginTop: '4rem', backgroundColor: 'black' }}>
-                    <h3 className="tituloh3-1" style={{color: 'white'}}>Reforma e fabricação de pranchas</h3>
-                    <div className="videoContainer">
-                        <video width="300" style={{ borderRadius: '20px', overflow: 'hidden' }} controls>
-                            <source src={VideoPrancha} type="video/mp4" />
-                            Seu navegador não suporta a tag de vídeo.
-                        </video>
-                    </div>
-                </div>
-                </div>
-
-                <div className="QuemSomosHome" >
-
-                    <h4 className="subtitulo">Venha conferir nosso catálogo</h4>
-
-                    <div className="row justify-content-center">
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha01} className="imgcat2" />
-                                <figcaption>Imagem 1</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha02} className="imgcat2" />
-                                <figcaption>Imagem 2</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha03} className="imgcat2" />
-                                <figcaption>Imagem 3</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha04} className="imgcat2" />
-                                <figcaption>Imagem 4</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha05} className="imgcat2" />
-                                <figcaption>Imagem 5</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha11} className="imgcat2" />
-                                <figcaption>Imagem 6</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha07} className="imgcat2" />
-                                <figcaption>Imagem 7</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha15} className="imgcat2" />
-                                <figcaption>Imagem 8</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha09} className="imgcat2" />
-                                <figcaption>Imagem 9</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha08} className="imgcat2" />
-                                <figcaption>Imagem 10</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha14} className="imgcat2" />
-                                <figcaption>Imagem 11</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha10} className="imgcat2" />
-                                <figcaption>Imagem 12</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha13} className="imgcat2" />
-                                <figcaption>Imagem 13</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-sm-3 d-flex flex-column align-items-center">
-                            <figure className="text-center">
-                                <img src={ImagemPrancha12} className="imgcat2" />
-                                <figcaption>Imagem 14</figcaption>
-                            </figure>
-                        </div>
-
-                    </div>
-                    <div className="button-container-pranchas">
-                        <p style={{ paddingBottom: '2rem' }}>
-                            <a href="https://wa.me/5551994962262?text=Me%20interessei%20por%20uma%20prancha%20do%20Projeto%20Surfar.%20Gostaria%20de%20um%20or%C3%A7amento" target="_blank">
-                                <button className="botaoPix">Orçamento de prancha</button>
-                            </a>
-                        </p>
                     </div>
 
+                        <div className="videoContainer">
+                            <video controls>
+                                <source src={VideoPrancha} type="video/mp4" />
+                                Seu navegador não suporta a tag de vídeo.
+                            </video>
+                        </div>
 
+
+                        <div className="QuemSomosHome" >
+
+                            <h4 className="tituloParagrafo01">Venha conferir nosso catálogo</h4>
+
+                            <div className="row justify-content-center">
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha09} className="imgcat2" />
+                                        <figcaption>Imagem 1</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha08} className="imgcat2" />
+                                        <figcaption>Imagem 2</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha14} className="imgcat2" />
+                                        <figcaption>Imagem 3</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha10} className="imgcat2" />
+                                        <figcaption>Imagem 4</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div className="row justify-content-center">
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha13} className="imgcat2" />
+                                        <figcaption>Imagem 5</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha12} className="imgcat2" />
+                                        <figcaption>Imagem 6</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha07} className="imgcat2" />
+                                        <figcaption>Imagem 7</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha15} className="imgcat2" />
+                                        <figcaption>Imagem 8</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div className="row justify-content-center">
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha01} className="imgcat2" />
+                                        <figcaption>Imagem 9</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha02} className="imgcat2" />
+                                        <figcaption>Imagem 10</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha03} className="imgcat2" />
+                                        <figcaption>Imagem 11</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha04} className="imgcat2" />
+                                        <figcaption>Imagem 12</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div className="row justify-content-center">
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha05} className="imgcat2" />
+                                        <figcaption>Imagem 13</figcaption>
+                                    </figure>
+                                </div>
+                                <div className="col-sm-3 d-flex flex-column align-items-center">
+                                    <figure className="text-center">
+                                        <img src={ImagemPrancha11} className="imgcat2" />
+                                        <figcaption>Imagem 14</figcaption>
+                                    </figure>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div className="button-container-pranchas">
+                            <p style={{ paddingBottom: '2rem' }}>
+                                <a href="https://wa.me/5551994962262?text=Me%20interessei%20por%20uma%20prancha%20do%20Projeto%20Surfar.%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank">
+                                    <button className="botaoPix">Orçamento de prancha</button>
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
                 <Colaboradores />
                 <Footer />

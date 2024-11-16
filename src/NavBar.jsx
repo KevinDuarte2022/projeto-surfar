@@ -45,7 +45,7 @@ function NavBarComponent() {
             <Link to="/seja-voluntario" onClick={() => setExpanded(false)}>SEJA UM VOLUNTÁRIO</Link>
             <Link to="/cursos-ofertados" onClick={() => setExpanded(false)}>CURSOS OFERTADOS</Link>
             <Link to="/projetos" onClick={() => setExpanded(false)}>PROJETOS</Link>
-            <Link to="/fabricacao-de-pranchas" onClick={() => setExpanded(false)}>FABRICAÇÃO DE PRANCHAS</Link>
+            <Link to="/fabricacao-de-pranchas" onClick={() => setExpanded(false)}>PRANCHAS</Link>
             <Link target='_blank' to="https://wa.me/5551994962262?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+ONG+Projeto+Surfar.+" onClick={() => setExpanded(false)}>FALE CONOSCO</Link>
           </Nav>
           {/* Botão "X" para fechar o menu */}
